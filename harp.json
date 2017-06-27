@@ -1,0 +1,22 @@
+{
+  "globals": {
+    "name": "Bigelow Laboratory for Ocean Sciences",
+    "title": "Bigelow Laboratory for Ocean Sciences",
+    "url": "https://www2.bigelow.org",
+    "description": "Description of Bigelow Laboratory for Ocean Sciences.",
+    "authors": {
+      "simurai": {
+        "name": "Kevin Guay",
+        "email": "kguay@bigelow.org",
+        "bio": "Software and Web Developer",
+        "github": "kguay"
+      }
+    },
+    "service": {
+      "analytics": "UA-XXXXXX-1",
+      "service": "example",
+      "prism": true
+    }
+  },
+  "domains": []
+}
