@@ -1,40 +1,39 @@
 h1(align='center') Welcome to Tickcast
 
-#map.mapbox
+.center-div
+  #map.mapbox
   
-br
-br
-br
+  br
+  br
+  br
 
-#map2.mapbox
+  .slider
+    input(type='range', name='points', min='0', max='10')#slider
 
-br
-br
-br
-
-#map3.mapbox
-
-br
-br
-br
-
-#map4.mapbox
-
-br
-br
-br
-
-.slider
-  input(type='range', name='points', min='0', max='10')#slider
-
-br
-br
-br
-
-script(type='/javascript/jquery-1.11.3.js', src='text/javascript')
+  br
+  br
+  br
 
 script(type="text/javascript").
-  alert($("#map").attr('id'));
-  // $('#slider').change(function() {
-  //   alert( 'Handler' );
-  // });
+  $('#slider').mousemove(function() {
+    var theValue = $('#slider').val();
+  
+    if (theValue <2.5){
+      
+      $("#map").css("background-position-x", "-50px");
+      
+    } else if (theValue <5){
+      
+      $("#map").css("background-position-x", "-437px");      
+      
+    } else if(theValue <7.5){
+      
+      $("#map").css("background-position-x", "-822px");      
+    } else {
+      
+      $("#map").css("background-position-x", "-1208px");      
+    }
+    
+  
+  
+  });
