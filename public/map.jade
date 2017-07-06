@@ -1,3 +1,10 @@
+// document to display tick observations on map
+// would be nice to let user select some filter aspects such as 
+// what time period of data to display and what tick species 
+// need to display different species / sexes in different colors.
+// need a way to format data so that we can do this ????
+
+
 doctype html
 html
   head
@@ -18,17 +25,52 @@ html
       }
     script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
     script.
-      // This example creates a custom overlay called USGSOverlay, containing
-     
-      function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 7,
-      center: {lat: 44.8012, lng: -68.7778},
+      //process data
+      var lats =[43.8992,44.42977,42.854886,42.534976,43.801773,43.832642,43.815169,43.907812,43.682148,44.349542];
+      var lons =     [-69.95894,-70.06456,-71.6082,-72.52522,-70.17932,-69.58903,-70.145709,-69.64608,-70.35823,-70.05698 ];
+      var tick = ["Deer - Adult Female","Deer - Adult Male","Deer - Adult Male","Dog - Female","Deer - Adult    Female","Dog - Male","Dog - Female","Deer - Adult Female","Dog - Female", "Dog - Female"];
       
-      });
+      
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: {lat: 44.8012, lng: -68.7778},
+      
+        });
+        for (i = 0; i < lats.length; i++) { 
+          var pinColor = "FE7569";
+          //determine marker color based on tick sex
+          if (tick[i] === "Deer - Adult Female"){
+            pinColor = "9370DB";
+          }
+          //var pinColor = "FE7569";
+          //008000
+          //0000FF
+          var pinImage = new google.maps.MarkerImage(
+                        "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+                        new google.maps.Size(21, 34),
+                        new google.maps.Point(0,0),
+                        new google.maps.Point(10, 34)
+          );
+          var LatLng = {lat: lats[i], lng: lons[i]};
+          new google.maps.Marker({
+                    position: LatLng,
+                    map: map,
+                    icon: pinImage
+          });
+                
+        }      
       
       }
+     
       google.maps.event.addDomListener(window, 'load', initMap);
+    
+
+     
+     
   body
     h1(align='center') Where Do Our Observations Come From?
     #map
+      
+      
+      
