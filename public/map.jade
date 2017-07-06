@@ -30,6 +30,36 @@ html
       var lons =     [-69.95894,-70.06456,-71.6082,-72.52522,-70.17932,-69.58903,-70.145709,-69.64608,-70.35823,-70.05698 ];
       var tick = ["Deer - Adult Female","Deer - Adult Male","Deer - Adult Male","Dog - Female","Deer - Adult    Female","Dog - Male","Dog - Female","Deer - Adult Female","Dog - Female", "Dog - Female"];
       
+      var male_deer = new google.maps.MarkerImage(
+                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "008000",
+                    new google.maps.Size(21, 34),
+                    new google.maps.Point(0,0),
+                    new google.maps.Point(10, 34)
+      );
+      
+      var female_deer = new google.maps.MarkerImage(
+                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "FE7569",
+                    new google.maps.Size(21, 34),
+                    new google.maps.Point(0,0),
+                    new google.maps.Point(10, 34)
+      );
+      
+      var male_dog = new google.maps.MarkerImage(
+                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "0000FF",
+                    new google.maps.Size(21, 34),
+                    new google.maps.Point(0,0),
+                    new google.maps.Point(10, 34)
+      );
+      
+      var female_dog = new google.maps.MarkerImage(
+                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "9370DB",
+                    new google.maps.Size(21, 34),
+                    new google.maps.Point(0,0),
+                    new google.maps.Point(10, 34)
+      );
+      
+      
+      
       
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -38,26 +68,39 @@ html
       
         });
         for (i = 0; i < lats.length; i++) { 
-          var pinColor = "FE7569";
+
+           var LatLng = {lat: lats[i], lng: lons[i]};
           //determine marker color based on tick sex
           if (tick[i] === "Deer - Adult Female"){
-            pinColor = "9370DB";
+           
+            new google.maps.Marker({
+                      position: LatLng,
+                      map: map,
+              icon: female_deer
+            });
+          } else if (tick[i] ==="Deer - Adult Male"){
+            new google.maps.Marker({
+                      position: LatLng,
+                      map: map,
+              icon: male_deer
+            });
+            
+          } else if (tick[i] ==="Dog - Female"){
+            new google.maps.Marker({
+                      position: LatLng,
+                      map: map,
+              icon: female_dog
+             });
+          } else{
+            new google.maps.Marker({
+                      position: LatLng,
+                      map: map,
+              icon: male_dog
+               });
           }
-          //var pinColor = "FE7569";
-          //008000
-          //0000FF
-          var pinImage = new google.maps.MarkerImage(
-                        "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
-                        new google.maps.Size(21, 34),
-                        new google.maps.Point(0,0),
-                        new google.maps.Point(10, 34)
-          );
-          var LatLng = {lat: lats[i], lng: lons[i]};
-          new google.maps.Marker({
-                    position: LatLng,
-                    map: map,
-                    icon: pinImage
-          });
+         
+
+
                 
         }      
       
