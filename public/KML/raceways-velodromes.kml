@@ -1,0 +1,2830 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>VirtualGlobetrotting: Raceways - Velodromes</name>
+		<open>1</open>
+
+            <NetworkLink>
+                <name>VirtualGlobetrotting Live View</name>
+                <flyToView>0</flyToView>
+                <Link>
+                    <href>http://virtualglobetrotting.com/category/land/raceways-velodromes/export-0.kml</href>
+                    <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
+                    <viewRefreshMode>onStop</viewRefreshMode>
+                </Link>
+            </NetworkLink><Placemark id="3765">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/velodrome-at-bloomer-park/" />
+                    <name><![CDATA[Velodrome at Bloomer Park]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/velodrome-at-bloomer-park/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3765-v3/velodrome-at-bloomer-park.jpg' alt='Velodrome at Bloomer Park' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3765' class='map-link ' href='http://virtualglobetrotting.com/map/velodrome-at-bloomer-park/' title='Velodrome at Bloomer Park'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 1/8th mile plywood surface oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 1/8th mile plywood surface oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-83.10730585,42.68000486</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3765-v3-micro/velodrome-at-bloomer-park.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="4491">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/asheville-motor-speedway/" />
+                    <name><![CDATA[Asheville Motor Speedway]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/asheville-motor-speedway/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/4/4/4491-v1/asheville-motor-speedway.jpg' alt='Asheville Motor Speedway' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='4491' class='map-link ' href='http://virtualglobetrotting.com/map/asheville-motor-speedway/' title='Asheville Motor Speedway'>Read more...</a> <br />
+                Where the raceway is and extending east you can just see the very faint outlines of Owen Field, a general aviation air field established in the mid 1940s.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Where the raceway is and extending east you can just see the very faint outlines of Owen Field, a general aviation air field established in the mid 1940s.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-82.58118200,35.56545900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/4/4/4491-v1-micro/asheville-motor-speedway.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="8761">
+                    <atom:author>
+                        <atom:name>HGA (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/stade-v-lodrome/" />
+                    <name><![CDATA[Stade Vélodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/stade-v-lodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/8/7/8761-v2/stade-v-lodrome.jpg' alt='Stade V&eacute;lodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/HGA/' title='HGA: Info'>HGA</a>. <br />
+                <a data-mid='8761' class='map-link ' href='http://virtualglobetrotting.com/map/stade-v-lodrome/' title='Stade V&eacute;lodrome'>Read more...</a> <br />
+                Stadium of Olympique de Marseille<br />
+and WorldCup 98<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Stadium of Olympique de Marseille<br />
+and WorldCup 98<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>5.39547800,43.27008900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/8/7/8761-v2-micro/stade-v-lodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="41502">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dorais-velodrome/" />
+                    <name><![CDATA[Dorais Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dorais-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/4/1/41502-v1/dorais-velodrome.jpg' alt='Dorais Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='41502' class='map-link ' href='http://virtualglobetrotting.com/map/dorais-velodrome/' title='Dorais Velodrome'>Read more...</a> <br />
+                This neglected track was built in the late 60's.  333 meters long.  8-24 degree banking.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This neglected track was built in the late 60's.  333 meters long.  8-24 degree banking.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-83.04569400,42.44229500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/4/1/41502-v1-micro/dorais-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3759">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/baton-rouge-velodrome/" />
+                    <name><![CDATA[Baton Rouge Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/baton-rouge-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3759-v1/baton-rouge-velodrome.jpg' alt='Baton Rouge Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3759' class='map-link ' href='http://virtualglobetrotting.com/map/baton-rouge-velodrome/' title='Baton Rouge Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 333 meter concrete oval, 33 degrees in corners, 12 degrees in straights.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 333 meter concrete oval, 33 degrees in corners, 12 degrees in straights.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-91.11556300,30.39758200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3759-v1-micro/baton-rouge-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3924">
+                    <atom:author>
+                        <atom:name>skithund (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/helsinki-velodrome/" />
+                    <name><![CDATA[Helsinki Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/helsinki-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/9/3924-v1/helsinki-velodrome.jpg' alt='Helsinki Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/skithund/' title='skithund: Info'>skithund</a>. <br />
+                <a data-mid='3924' class='map-link ' href='http://virtualglobetrotting.com/map/helsinki-velodrome/' title='Helsinki Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>24.94274100,60.20280400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/9/3924-v1-micro/helsinki-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3993">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/nerang-gold-coast-cycling-center-velodrome/" />
+                    <name><![CDATA[Nerang Gold Coast Cycling Center Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/nerang-gold-coast-cycling-center-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/9/3993-v1/nerang-gold-coast-cycling-center-velodrome.jpg' alt='Nerang Gold Coast Cycling Center Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3993' class='map-link ' href='http://virtualglobetrotting.com/map/nerang-gold-coast-cycling-center-velodrome/' title='Nerang Gold Coast Cycling Center Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 356 meter asphalt oval with three criterium circuits around it.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 356 meter asphalt oval with three criterium circuits around it.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>153.33407900,-27.98581500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/9/3993-v1-micro/nerang-gold-coast-cycling-center-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="4195">
+                    <atom:author>
+                        <atom:name>psycho_roy (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/buenos-aires-velodrome/" />
+                    <name><![CDATA[Buenos Aires Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/buenos-aires-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/4/1/4195-v1/buenos-aires-velodrome.jpg' alt='Buenos Aires Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/psycho_roy/' title='psycho_roy: Info'>psycho_roy</a>. <br />
+                <a data-mid='4195' class='map-link ' href='http://virtualglobetrotting.com/map/buenos-aires-velodrome/' title='Buenos Aires Velodrome'>Read more...</a> <br />
+                Stadiums<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Stadiums<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-58.41558300,-34.56563800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/4/1/4195-v1-micro/buenos-aires-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3774">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/7-11-otc-velodrome/" />
+                    <name><![CDATA[7-11 OTC Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/7-11-otc-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3774-v1/7-11-otc-velodrome.jpg' alt='7-11 OTC Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3774' class='map-link ' href='http://virtualglobetrotting.com/map/7-11-otc-velodrome/' title='7-11 OTC Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 333.3 meter concrete oval, 33 degree banking in turns, 12 degrees in straights. Located just South of the US Olympic Training Center.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 333.3 meter concrete oval, 33 degree banking in turns, 12 degrees in straights. Located just South of the US Olympic Training Center.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-104.79564400,38.82920300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3774-v1-micro/7-11-otc-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3760">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dick-lane-velodrome/" />
+                    <name><![CDATA[Dick Lane Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dick-lane-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3760-v1/dick-lane-velodrome.jpg' alt='Dick Lane Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3760' class='map-link ' href='http://virtualglobetrotting.com/map/dick-lane-velodrome/' title='Dick Lane Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-84.45186100,33.68534800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3760-v1-micro/dick-lane-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3781">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/alpenrose-velodrome/" />
+                    <name><![CDATA[Alpenrose Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/alpenrose-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3781-v1/alpenrose-velodrome.jpg' alt='Alpenrose Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3781' class='map-link ' href='http://virtualglobetrotting.com/map/alpenrose-velodrome/' title='Alpenrose Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. Outdoor, located at the Alpenrose Dairy sports complex.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. Outdoor, located at the Alpenrose Dairy sports complex.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-122.74026600,45.47978300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3781-v1-micro/alpenrose-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3762">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/brian-piccolo-park-velodrome/" />
+                    <name><![CDATA[Brian Piccolo Park Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/brian-piccolo-park-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3762-v1/brian-piccolo-park-velodrome.jpg' alt='Brian Piccolo Park Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3762' class='map-link ' href='http://virtualglobetrotting.com/map/brian-piccolo-park-velodrome/' title='Brian Piccolo Park Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 333.3 meter concrete, 28 degree banking in turns.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 333.3 meter concrete, 28 degree banking in turns.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-80.26895600,26.03501200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3762-v1-micro/brian-piccolo-park-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75891">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/anfa-velodrome/" />
+                    <name><![CDATA[Anfa Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/anfa-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75891-v1/anfa-velodrome.jpg' alt='Anfa Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75891' class='map-link ' href='http://virtualglobetrotting.com/map/anfa-velodrome/' title='Anfa Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-7.64555400,33.58923200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75891-v1-micro/anfa-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3777">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/adt-event-center-velodrome/" />
+                    <name><![CDATA[ADT Event Center Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/adt-event-center-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3777-v2/adt-event-center-velodrome.jpg' alt='ADT Event Center Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3777' class='map-link ' href='http://virtualglobetrotting.com/map/adt-event-center-velodrome/' title='ADT Event Center Velodrome'>Read more...</a> <br />
+                Olympic-style indoor track bicycle racing venue.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style indoor track bicycle racing venue.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-118.25956100,33.85907500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3777-v2-micro/adt-event-center-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3790">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/athens-olympic-velodrome/" />
+                    <name><![CDATA[Athens Olympic Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/athens-olympic-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3790-v2/athens-olympic-velodrome.jpg' alt='Athens Olympic Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3790' class='map-link ' href='http://virtualglobetrotting.com/map/athens-olympic-velodrome/' title='Athens Olympic Velodrome'>Read more...</a> <br />
+                2004 Olympic track bicycle racing venue. 250 meter INDOOR wood surface, 45 degrees in turns, 12 dgrees in straights. Glass roof construction under way in this photo.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[2004 Olympic track bicycle racing venue. 250 meter INDOOR wood surface, 45 degrees in turns, 12 dgrees in straights. Glass roof construction under way in this photo.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>23.78011100,38.04014000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3790-v2-micro/athens-olympic-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="11781">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/budapest-velodrome/" />
+                    <name><![CDATA[Budapest Velodrome (?)]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/budapest-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/1/11781-v2/budapest-velodrome.jpg' alt='Budapest Velodrome (?)' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='11781' class='map-link ' href='http://virtualglobetrotting.com/map/budapest-velodrome/' title='Budapest Velodrome (?)'>Read more...</a> <br />
+                I 'think' this is the velodrome but can't be sure.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[I 'think' this is the velodrome but can't be sure.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>19.09491400,47.50612100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/1/11781-v2-micro/budapest-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3780">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/hellyer-park-velodrome/" />
+                    <name><![CDATA[Hellyer Park Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/hellyer-park-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3780-v1/hellyer-park-velodrome.jpg' alt='Hellyer Park Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3780' class='map-link ' href='http://virtualglobetrotting.com/map/hellyer-park-velodrome/' title='Hellyer Park Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-121.81333800,37.28804800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3780-v1-micro/hellyer-park-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="12588">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/cidade-universit-ria-velodrome-and-tennis-courts/" />
+                    <name><![CDATA[Cidade Universitária velodrome and tennis courts]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/cidade-universit-ria-velodrome-and-tennis-courts/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/12588-v1/cidade-universit-ria-velodrome-and-tennis-courts.jpg' alt='Cidade Universit&aacute;ria velodrome and tennis courts' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='12588' class='map-link ' href='http://virtualglobetrotting.com/map/cidade-universit-ria-velodrome-and-tennis-courts/' title='Cidade Universit&aacute;ria velodrome and tennis courts'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-46.71557300,-23.56051600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/12588-v1-micro/cidade-universit-ria-velodrome-and-tennis-courts.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3986">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/coburg-velodrome/" />
+                    <name><![CDATA[Coburg Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/coburg-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/9/3986-v1/coburg-velodrome.jpg' alt='Coburg Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3986' class='map-link ' href='http://virtualglobetrotting.com/map/coburg-velodrome/' title='Coburg Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 250 meter concrete oval<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 250 meter concrete oval<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>144.95544800,-37.72974400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/9/3986-v1-micro/coburg-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35393">
+                    <atom:author>
+                        <atom:name>Effi (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/velodromo-paolo-borsellino/" />
+                    <name><![CDATA[Velodromo Paolo Borsellino]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/velodromo-paolo-borsellino/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/5/35393-v1/velodromo-paolo-borsellino.jpg' alt='Velodromo Paolo Borsellino' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Effi/' title='Effi: Info'>Effi</a>. <br />
+                <a data-mid='35393' class='map-link ' href='http://virtualglobetrotting.com/map/velodromo-paolo-borsellino/' title='Velodromo Paolo Borsellino'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>13.31392800,38.17388000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/5/35393-v1-micro/velodromo-paolo-borsellino.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7954">
+                    <atom:author>
+                        <atom:name>focusfree (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/hedgemaze-velodrome/" />
+                    <name><![CDATA[Hedgemaze/Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/hedgemaze-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/9/7954-v4/hedgemaze-velodrome.jpg' alt='Hedgemaze/Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/focusfree/' title='focusfree: Info'>focusfree</a>. <br />
+                <a data-mid='7954' class='map-link ' href='http://virtualglobetrotting.com/map/hedgemaze-velodrome/' title='Hedgemaze/Velodrome'>Read more...</a> <br />
+                Jardins del Laberint D'Horta with hedgemaze above the Velodrome for the 1992 Barcelona Olimpics.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Jardins del Laberint D'Horta with hedgemaze above the Velodrome for the 1992 Barcelona Olimpics.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>2.14664700,41.43937300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/9/7954-v4-micro/hedgemaze-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3766">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/ed-rudolph-northbrook-velodrome/" />
+                    <name><![CDATA[Ed Rudolph Northbrook Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/ed-rudolph-northbrook-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3766-v1/ed-rudolph-northbrook-velodrome.jpg' alt='Ed Rudolph Northbrook Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3766' class='map-link ' href='http://virtualglobetrotting.com/map/ed-rudolph-northbrook-velodrome/' title='Ed Rudolph Northbrook Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 382 meter concrete slurry over asphalt oval, 18 degrees in the turns.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 382 meter concrete slurry over asphalt oval, 18 degrees in the turns.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-87.81831300,42.12326600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3766-v1-micro/ed-rudolph-northbrook-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35135">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/herne-hill-velodrome/" />
+                    <name><![CDATA[Herne Hill Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/herne-hill-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/5/35135-v1/herne-hill-velodrome.jpg' alt='Herne Hill Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='35135' class='map-link ' href='http://virtualglobetrotting.com/map/herne-hill-velodrome/' title='Herne Hill Velodrome'>Read more...</a> <br />
+                Built in 1891 and used in the 1948 Summer Olympic Games.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Built in 1891 and used in the 1948 Summer Olympic Games.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-0.09162600,51.45111300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/5/35135-v1-micro/herne-hill-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3773">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/major-taylor-velodrome/" />
+                    <name><![CDATA[Major Taylor Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/major-taylor-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3773-v1/major-taylor-velodrome.jpg' alt='Major Taylor Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3773' class='map-link ' href='http://virtualglobetrotting.com/map/major-taylor-velodrome/' title='Major Taylor Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 333.3 meter concrete oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 333.3 meter concrete oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-86.19943900,39.82144800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3773-v1-micro/major-taylor-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3778">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/encino-velodrome/" />
+                    <name><![CDATA[Encino Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/encino-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3778-v1/encino-velodrome.jpg' alt='Encino Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3778' class='map-link ' href='http://virtualglobetrotting.com/map/encino-velodrome/' title='Encino Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. Concrete oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. Concrete oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-118.50857700,34.18172800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3778-v1-micro/encino-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3755">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/alkek-velodrome/" />
+                    <name><![CDATA[Alkek Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/alkek-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3755-v1/alkek-velodrome.jpg' alt='Alkek Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3755' class='map-link ' href='http://virtualglobetrotting.com/map/alkek-velodrome/' title='Alkek Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 333.3 meter concrete oval, 33 degrees banking in tuns, 12 degrees in straights.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 333.3 meter concrete oval, 33 degrees banking in tuns, 12 degrees in straights.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-95.69554200,29.79834400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3755-v1-micro/alkek-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55058">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/cottbus-sport-centre-velodrome/" />
+                    <name><![CDATA[Cottbus Sport Centre Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/cottbus-sport-centre-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55058-v1/cottbus-sport-centre-velodrome.jpg' alt='Cottbus Sport Centre Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55058' class='map-link ' href='http://virtualglobetrotting.com/map/cottbus-sport-centre-velodrome/' title='Cottbus Sport Centre Velodrome'>Read more...</a> <br />
+                This 333 meter track is banked up to 42 degrees in the turns.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This 333 meter track is banked up to 42 degrees in the turns.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>14.33701400,51.74083100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55058-v1-micro/cottbus-sport-centre-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75743">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/arima-velodrome/" />
+                    <name><![CDATA[Arima Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/arima-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75743-v1/arima-velodrome.jpg' alt='Arima Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75743' class='map-link ' href='http://virtualglobetrotting.com/map/arima-velodrome/' title='Arima Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 440m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 440m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-61.28392800,10.63689300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75743-v1-micro/arima-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55051">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/londonderry-raceway-new-england-velodrome/" />
+                    <name><![CDATA[Londonderry Raceway - New England Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/londonderry-raceway-new-england-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55051-v1/londonderry-raceway-new-england-velodrome.jpg' alt='Londonderry Raceway - New England Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55051' class='map-link ' href='http://virtualglobetrotting.com/map/londonderry-raceway-new-england-velodrome/' title='Londonderry Raceway - New England Velodrome'>Read more...</a> <br />
+                Racing on this 1/4 mile (318 meter) track dates back to 1947.  Several classes of karts and quarter midgets raced here until moving to a new facility in 2007.  Bicycle races are held at the track three or four days a week.  The turns are banked at 14 degrees.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Racing on this 1/4 mile (318 meter) track dates back to 1947.  Several classes of karts and quarter midgets raced here until moving to a new facility in 2007.  Bicycle races are held at the track three or four days a week.  The turns are banked at 14 degrees.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-71.41486500,42.92092500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55051-v1-micro/londonderry-raceway-new-england-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3763">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/kissena-velodrome/" />
+                    <name><![CDATA[Kissena Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/kissena-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3763-v1/kissena-velodrome.jpg' alt='Kissena Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3763' class='map-link ' href='http://virtualglobetrotting.com/map/kissena-velodrome/' title='Kissena Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-73.80922100,40.74453600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3763-v1-micro/kissena-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="11885">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bratislava-velodrome/" />
+                    <name><![CDATA[Bratislava Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bratislava-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/1/11885-v1/bratislava-velodrome.jpg' alt='Bratislava Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='11885' class='map-link ' href='http://virtualglobetrotting.com/map/bratislava-velodrome/' title='Bratislava Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>17.13504600,48.16179900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/1/11885-v1-micro/bratislava-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55072">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/lamminp-velodrome/" />
+                    <name><![CDATA[Lamminpää Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/lamminp-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55072-v1/lamminp-velodrome.jpg' alt='Lamminp&auml;&auml; Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55072' class='map-link ' href='http://virtualglobetrotting.com/map/lamminp-velodrome/' title='Lamminp&auml;&auml; Velodrome'>Read more...</a> <br />
+                This 500 meter track features a pedestrian bridge for infield access.  Its plywood racing surface has deteriorated beyond repair.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This 500 meter track features a pedestrian bridge for infield access.  Its plywood racing surface has deteriorated beyond repair.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>23.63135700,61.52742900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55072-v1-micro/lamminp-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35581">
+                    <atom:author>
+                        <atom:name>mikeb9991 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/palma-velodrome/" />
+                    <name><![CDATA[Palma Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/palma-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/5/35581-v1/palma-velodrome.jpg' alt='Palma Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/mikeb9991/' title='mikeb9991: Info'>mikeb9991</a>. <br />
+                <a data-mid='35581' class='map-link ' href='http://virtualglobetrotting.com/map/palma-velodrome/' title='Palma Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>2.62886500,39.58844300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/5/35581-v1-micro/palma-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3767">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/washington-park-velodrome/" />
+                    <name><![CDATA[Washington Park Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/washington-park-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3767-v1/washington-park-velodrome.jpg' alt='Washington Park Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3767' class='map-link ' href='http://virtualglobetrotting.com/map/washington-park-velodrome/' title='Washington Park Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 333 meter oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 333 meter oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-87.83046800,42.59919800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3767-v1-micro/washington-park-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="45265">
+                    <atom:author>
+                        <atom:name>Lamos (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/olympic-velodrome-cycling-hockey-1960/" />
+                    <name><![CDATA[Olympic Velodrome- Cycling, Hockey 1960]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/olympic-velodrome-cycling-hockey-1960/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/4/5/45265-v2/olympic-velodrome-cycling-hockey-1960.jpg' alt='Olympic Velodrome- Cycling, Hockey 1960' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Lamos/' title='Lamos: Info'>Lamos</a>. <br />
+                <a data-mid='45265' class='map-link ' href='http://virtualglobetrotting.com/map/olympic-velodrome-cycling-hockey-1960/' title='Olympic Velodrome- Cycling, Hockey 1960'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>12.45697100,41.82655400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/4/5/45265-v2-micro/olympic-velodrome-cycling-hockey-1960.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75305">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/barbados-national-stadium-velodrome/" />
+                    <name><![CDATA[Barbados National Stadium Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/barbados-national-stadium-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75305-v1/barbados-national-stadium-velodrome.jpg' alt='Barbados National Stadium Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75305' class='map-link ' href='http://virtualglobetrotting.com/map/barbados-national-stadium-velodrome/' title='Barbados National Stadium Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 500m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 500m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-59.60476800,13.12043000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75305-v1-micro/barbados-national-stadium-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="24509">
+                    <atom:author>
+                        <atom:name>FabFour (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/velodromo-maspes-vigorelli/" />
+                    <name><![CDATA[Velodromo Maspes-Vigorelli]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/velodromo-maspes-vigorelli/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/4/24509-v1/velodromo-maspes-vigorelli.jpg' alt='Velodromo Maspes-Vigorelli' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/FabFour/' title='FabFour: Info'>FabFour</a>. <br />
+                <a data-mid='24509' class='map-link ' href='http://virtualglobetrotting.com/map/velodromo-maspes-vigorelli/' title='Velodromo Maspes-Vigorelli'>Read more...</a> <br />
+                The "Velodromo" (a track for bicycle races), has ben built in 1935, and has been closed and re-opened many times. Last time it was closed was september 11, 2001. In june 1965, the Beatles played there.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The "Velodromo" (a track for bicycle races), has ben built in 1935, and has been closed and re-opened many times. Last time it was closed was september 11, 2001. In june 1965, the Beatles played there.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>9.15802700,45.48146800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/4/24509-v1-micro/velodromo-maspes-vigorelli.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35196">
+                    <atom:author>
+                        <atom:name>kaiken (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/gwangmyeong-speedom-velodrome/" />
+                    <name><![CDATA[Gwangmyeong Speedom (velodrome)]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/gwangmyeong-speedom-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/5/35196-v1/gwangmyeong-speedom-velodrome.jpg' alt='Gwangmyeong Speedom (velodrome)' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kaiken/' title='kaiken: Info'>kaiken</a>. <br />
+                <a data-mid='35196' class='map-link ' href='http://virtualglobetrotting.com/map/gwangmyeong-speedom-velodrome/' title='Gwangmyeong Speedom (velodrome)'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>126.84546200,37.46682000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/5/35196-v1-micro/gwangmyeong-speedom-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75867">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bucharest-velodrome/" />
+                    <name><![CDATA[Bucharest Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bucharest-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/7/5/75867-v1/bucharest-velodrome.jpg' alt='Bucharest Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75867' class='map-link ' href='http://virtualglobetrotting.com/map/bucharest-velodrome/' title='Bucharest Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>26.10250600,44.45882400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/7/5/75867-v1-micro/bucharest-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3793">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/burnaby-velodrome/" />
+                    <name><![CDATA[Burnaby Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/burnaby-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3793-v1/burnaby-velodrome.jpg' alt='Burnaby Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3793' class='map-link ' href='http://virtualglobetrotting.com/map/burnaby-velodrome/' title='Burnaby Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. INDOOR, 200 meter board track under a bubble, 47 degrees in the banking.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. INDOOR, 200 meter board track under a bubble, 47 degrees in the banking.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-122.94059556,49.28926765</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3793-v1-micro/burnaby-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75556">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/muret-velodrome/" />
+                    <name><![CDATA[Muret Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/muret-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75556-v1/muret-velodrome.jpg' alt='Muret Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75556' class='map-link ' href='http://virtualglobetrotting.com/map/muret-velodrome/' title='Muret Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>1.31177800,43.44772100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75556-v1-micro/muret-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75508">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/brno-velodrome/" />
+                    <name><![CDATA[Brno Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/brno-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75508-v1/brno-velodrome.jpg' alt='Brno Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75508' class='map-link ' href='http://virtualglobetrotting.com/map/brno-velodrome/' title='Brno Velodrome'>Read more...</a> <br />
+                Outdoor - Partially Covered, Concrete, 400m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor - Partially Covered, Concrete, 400m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>16.57895900,49.18479600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75508-v1-micro/brno-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="78995">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bocholt-velodrome/" />
+                    <name><![CDATA[Bocholt Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bocholt-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/7/8/78995-v1/bocholt-velodrome.jpg' alt='Bocholt Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='78995' class='map-link ' href='http://virtualglobetrotting.com/map/bocholt-velodrome/' title='Bocholt Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>6.60773500,51.85695000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/7/8/78995-v1-micro/bocholt-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75322">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/alto-irpavi-velodrome/" />
+                    <name><![CDATA[Alto Irpavi Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/alto-irpavi-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75322-v1/alto-irpavi-velodrome.jpg' alt='Alto Irpavi Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75322' class='map-link ' href='http://virtualglobetrotting.com/map/alto-irpavi-velodrome/' title='Alto Irpavi Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-68.08224900,-16.52344700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75322-v1-micro/alto-irpavi-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="14538">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/parque-batlle-velodrome/" />
+                    <name><![CDATA[Velódromo Municipal de Montevideo]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/parque-batlle-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/4/14538-v1/parque-batlle-velodrome.jpg' alt='Vel&oacute;dromo Municipal de Montevideo' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='14538' class='map-link ' href='http://virtualglobetrotting.com/map/parque-batlle-velodrome/' title='Vel&oacute;dromo Municipal de Montevideo'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-56.15575800,-34.89779400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/4/14538-v1-micro/parque-batlle-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75517">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/juan-pablo-duarte-olympic-park/" />
+                    <name><![CDATA[Juan Pablo Duarte Olympic Park]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/juan-pablo-duarte-olympic-park/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75517-v1/juan-pablo-duarte-olympic-park.jpg' alt='Juan Pablo Duarte Olympic Park' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75517' class='map-link ' href='http://virtualglobetrotting.com/map/juan-pablo-duarte-olympic-park/' title='Juan Pablo Duarte Olympic Park'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-69.91922700,18.47739800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75517-v1-micro/juan-pablo-duarte-olympic-park.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="10014">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/luis-puig-velodrome/" />
+                    <name><![CDATA[Luis Puig velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/luis-puig-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/0/10014-v1/luis-puig-velodrome.jpg' alt='Luis Puig velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='10014' class='map-link ' href='http://virtualglobetrotting.com/map/luis-puig-velodrome/' title='Luis Puig velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-0.42776900,39.50086200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/0/10014-v1-micro/luis-puig-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35508">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bicycle-races-in-progress/" />
+                    <name><![CDATA[Bicycle races in progress]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bicycle-races-in-progress/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/5/35508-v1/bicycle-races-in-progress.jpg' alt='Bicycle races in progress' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='35508' class='map-link ' href='http://virtualglobetrotting.com/map/bicycle-races-in-progress/' title='Bicycle races in progress'>Read more...</a> <br />
+                At Brian Piccolo Park Velodrome<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[At Brian Piccolo Park Velodrome<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-80.26915400,26.03496800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/5/35508-v1-micro/bicycle-races-in-progress.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75758">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/westbourne-oval/" />
+                    <name><![CDATA[Westbourne Oval]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/westbourne-oval/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75758-v1/westbourne-oval.jpg' alt='Westbourne Oval' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75758' class='map-link ' href='http://virtualglobetrotting.com/map/westbourne-oval/' title='Westbourne Oval'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>25.60912100,-33.96043100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75758-v1-micro/westbourne-oval.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="5592">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/velodromo-generale-albricci/" />
+                    <name><![CDATA[Velodromo Generale Albricci]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/velodromo-generale-albricci/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/5/5/5592-v1/velodromo-generale-albricci.jpg' alt='Velodromo Generale Albricci' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='5592' class='map-link ' href='http://virtualglobetrotting.com/map/velodromo-generale-albricci/' title='Velodromo Generale Albricci'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>14.27445900,40.86167300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/5/5/5592-v1-micro/velodromo-generale-albricci.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="12636">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/gilly-velodrome/" />
+                    <name><![CDATA[Gilly velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/gilly-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/12636-v1/gilly-velodrome.jpg' alt='Gilly velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='12636' class='map-link ' href='http://virtualglobetrotting.com/map/gilly-velodrome/' title='Gilly velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>4.47936400,50.42830100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/12636-v1-micro/gilly-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3771">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/penrose-park-velodrome/" />
+                    <name><![CDATA[Penrose Park Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/penrose-park-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3771-v1/penrose-park-velodrome.jpg' alt='Penrose Park Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3771' class='map-link ' href='http://virtualglobetrotting.com/map/penrose-park-velodrome/' title='Penrose Park Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-90.24573300,38.68492100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3771-v1-micro/penrose-park-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75742">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/palo-seco-velodrome/" />
+                    <name><![CDATA[Palo Seco Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/palo-seco-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75742-v1/palo-seco-velodrome.jpg' alt='Palo Seco Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75742' class='map-link ' href='http://virtualglobetrotting.com/map/palo-seco-velodrome/' title='Palo Seco Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-61.60133900,10.08451200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75742-v1-micro/palo-seco-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55063">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/radrennbahn-hannover-w-lfel/" />
+                    <name><![CDATA[Radrennbahn Hannover Wülfel]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/radrennbahn-hannover-w-lfel/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55063-v1/radrennbahn-hannover-w-lfel.jpg' alt='Radrennbahn Hannover W&uuml;lfel' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55063' class='map-link ' href='http://virtualglobetrotting.com/map/radrennbahn-hannover-w-lfel/' title='Radrennbahn Hannover W&uuml;lfel'>Read more...</a> <br />
+                This 333 meter velodrome was built in 1965.  The surface is made of African hardwood, and the track is banked up to 49 degrees in the turns.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This 333 meter velodrome was built in 1965.  The surface is made of African hardwood, and the track is banked up to 49 degrees in the turns.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>9.77566500,52.32504300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55063-v1-micro/radrennbahn-hannover-w-lfel.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75521">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/tbilisi-velodrome/" />
+                    <name><![CDATA[Tbilisi Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/tbilisi-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75521-v1/tbilisi-velodrome.jpg' alt='Tbilisi Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75521' class='map-link ' href='http://virtualglobetrotting.com/map/tbilisi-velodrome/' title='Tbilisi Velodrome'>Read more...</a> <br />
+                Outdoor, Wood, 400m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Wood, 400m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>44.73687200,41.71726700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75521-v1-micro/tbilisi-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="4414">
+                    <atom:author>
+                        <atom:name>Parabellum (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/tour-de-france-2005-stage-one/" />
+                    <name><![CDATA[Tour de France 2005 stage one]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/tour-de-france-2005-stage-one/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/4/4/4414-v1/tour-de-france-2005-stage-one.jpg' alt='Tour de France 2005 stage one' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Parabellum/' title='Parabellum: Info'>Parabellum</a>. <br />
+                <a data-mid='4414' class='map-link ' href='http://virtualglobetrotting.com/map/tour-de-france-2005-stage-one/' title='Tour de France 2005 stage one'>Read more...</a> <br />
+                Fromentine > Noirmoutier-en-l'Ile<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Fromentine > Noirmoutier-en-l'Ile<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-2.19726600,46.95831300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/4/4/4414-v1-micro/tour-de-france-2005-stage-one.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75876">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/sangalhos-velodrome/" />
+                    <name><![CDATA[Sangalhos Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/sangalhos-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75876-v1/sangalhos-velodrome.jpg' alt='Sangalhos Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75876' class='map-link ' href='http://virtualglobetrotting.com/map/sangalhos-velodrome/' title='Sangalhos Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-8.46511100,40.48438400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75876-v1-micro/sangalhos-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75571">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/magenta-velodrome/" />
+                    <name><![CDATA[Magenta Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/magenta-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75571-v1/magenta-velodrome.jpg' alt='Magenta Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75571' class='map-link ' href='http://virtualglobetrotting.com/map/magenta-velodrome/' title='Magenta Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>166.46771000,-22.26408400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75571-v1-micro/magenta-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3801">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dunc-gray-velodrome/" />
+                    <name><![CDATA[Dunc Gray Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dunc-gray-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/8/3801-v1/dunc-gray-velodrome.jpg' alt='Dunc Gray Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3801' class='map-link ' href='http://virtualglobetrotting.com/map/dunc-gray-velodrome/' title='Dunc Gray Velodrome'>Read more...</a> <br />
+                2000 Olympic track bicycle racing venue. 250 meter INDOOR board track.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[2000 Olympic track bicycle racing venue. 250 meter INDOOR board track.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>150.99862600,-33.90744600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/8/3801-v1-micro/dunc-gray-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3789">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/manchester-velodrome/" />
+                    <name><![CDATA[Manchester Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/manchester-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/3/7/3789-v1/manchester-velodrome.jpg' alt='Manchester Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3789' class='map-link ' href='http://virtualglobetrotting.com/map/manchester-velodrome/' title='Manchester Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. INDOOR, 250 meter Siberian Pine surface, 45 degree banking in the turns, 13 degrees in the straights.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. INDOOR, 250 meter Siberian Pine surface, 45 degree banking in the turns, 13 degrees in the straights.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-2.19194400,53.48547900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/3/7/3789-v1-micro/manchester-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75321">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/ans-alleur-velodrome/" />
+                    <name><![CDATA[Ans-Alleur Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/ans-alleur-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/7/5/75321-v1/ans-alleur-velodrome.jpg' alt='Ans-Alleur Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75321' class='map-link ' href='http://virtualglobetrotting.com/map/ans-alleur-velodrome/' title='Ans-Alleur Velodrome'>Read more...</a> <br />
+                Outdoor, Asphalt, 400m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Asphalt, 400m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>5.51322800,50.68298700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/7/5/75321-v1-micro/ans-alleur-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="13654">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/quito-velodrome/" />
+                    <name><![CDATA[Quito Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/quito-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/13654-v1/quito-velodrome.jpg' alt='Quito Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='13654' class='map-link ' href='http://virtualglobetrotting.com/map/quito-velodrome/' title='Quito Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-78.48697700,-0.21367500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/13654-v1-micro/quito-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55067">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/mannheim-velodrome/" />
+                    <name><![CDATA[Mannheim Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/mannheim-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55067-v1/mannheim-velodrome.jpg' alt='Mannheim Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55067' class='map-link ' href='http://virtualglobetrotting.com/map/mannheim-velodrome/' title='Mannheim Velodrome'>Read more...</a> <br />
+                333 meter track built in the early 1960's.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[333 meter track built in the early 1960's.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>8.48674500,49.50807000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55067-v1-micro/mannheim-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75555">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/motz-seyssel-velodrome/" />
+                    <name><![CDATA[Motz Seyssel Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/motz-seyssel-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75555-v1/motz-seyssel-velodrome.jpg' alt='Motz Seyssel Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75555' class='map-link ' href='http://virtualglobetrotting.com/map/motz-seyssel-velodrome/' title='Motz Seyssel Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>5.82871700,45.93371500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75555-v1-micro/motz-seyssel-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35364">
+                    <atom:author>
+                        <atom:name>mlc1us (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/manukau-velodrome/" />
+                    <name><![CDATA[Manukau Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/manukau-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/5/35364-v1/manukau-velodrome.jpg' alt='Manukau Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/mlc1us/' title='mlc1us: Info'>mlc1us</a>. <br />
+                <a data-mid='35364' class='map-link ' href='http://virtualglobetrotting.com/map/manukau-velodrome/' title='Manukau Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>174.88612200,-36.98391500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/5/35364-v1-micro/manukau-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="79007">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/hong-kong-sports-institute-velodrome/" />
+                    <name><![CDATA[Hong Kong Sports Institute Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/hong-kong-sports-institute-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/9/79007-v1/hong-kong-sports-institute-velodrome.jpg' alt='Hong Kong Sports Institute Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='79007' class='map-link ' href='http://virtualglobetrotting.com/map/hong-kong-sports-institute-velodrome/' title='Hong Kong Sports Institute Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>114.19971000,22.39292100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/9/79007-v1-micro/hong-kong-sports-institute-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3768">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/nsc-velodrome/" />
+                    <name><![CDATA[NSC Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/nsc-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3768-v1/nsc-velodrome.jpg' alt='NSC Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3768' class='map-link ' href='http://virtualglobetrotting.com/map/nsc-velodrome/' title='NSC Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 250 meter hardwood surface oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 250 meter hardwood surface oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-93.22925100,45.15774600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3768-v1-micro/nsc-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75543">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/pirae-velodrome/" />
+                    <name><![CDATA[Pirae Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/pirae-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75543-v1/pirae-velodrome.jpg' alt='Pirae Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75543' class='map-link ' href='http://virtualglobetrotting.com/map/pirae-velodrome/' title='Pirae Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-149.55165000,-17.53398900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75543-v1-micro/pirae-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="49176">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bill-armstrong-stadium/" />
+                    <name><![CDATA[Bill Armstrong Stadium]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bill-armstrong-stadium/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/4/9/49176-v1/bill-armstrong-stadiium.jpg' alt='Bill Armstrong Stadium' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='49176' class='map-link ' href='http://virtualglobetrotting.com/map/bill-armstrong-stadium/' title='Bill Armstrong Stadium'>Read more...</a> <br />
+                On the campus of Indiana University, it is the home of the annual 'Little 500' bicycle race made famous in the 1979 movie 'Breaking Away'.<br />
+<br />
+This is also the home of Indiana's men's and women's soccer teams.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[On the campus of Indiana University, it is the home of the annual 'Little 500' bicycle race made famous in the 1979 movie 'Breaking Away'.<br />
+<br />
+This is also the home of Indiana's men's and women's soccer teams.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-86.51423704,39.18061580</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/4/9/49176-v1-micro/bill-armstrong-stadiium.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75536">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/roubaix-velodrome/" />
+                    <name><![CDATA[Roubaix Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/roubaix-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/7/5/75536-v1/roubaix-velodrome.jpg' alt='Roubaix Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75536' class='map-link ' href='http://virtualglobetrotting.com/map/roubaix-velodrome/' title='Roubaix Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 500m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 500m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>3.20517700,50.67794800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/7/5/75536-v1-micro/roubaix-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3784">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/velodrome-municipale-jacques-anquetil/" />
+                    <name><![CDATA[Velodrome Municipale Jacques Anquetil]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/velodrome-municipale-jacques-anquetil/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3784-v2/velodrome-municipale-jacques-anquetil.jpg' alt='Velodrome Municipale Jacques Anquetil' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3784' class='map-link ' href='http://virtualglobetrotting.com/map/velodrome-municipale-jacques-anquetil/' title='Velodrome Municipale Jacques Anquetil'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 500 meter concrete "Velodrome Municipale" in Paris, with a soccer pitch in the center. Built in 1894!<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 500 meter concrete "Velodrome Municipale" in Paris, with a soccer pitch in the center. Built in 1894!<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>2.41137000,48.82631100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3784-v2-micro/velodrome-municipale-jacques-anquetil.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75183">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/yerevan-velodrome/" />
+                    <name><![CDATA[Yerevan Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/yerevan-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75183-v1/yerevan-velodrome.jpg' alt='Yerevan Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75183' class='map-link ' href='http://virtualglobetrotting.com/map/yerevan-velodrome/' title='Yerevan Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 250m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 250m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>44.50840300,40.17212000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75183-v1-micro/yerevan-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75746">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/huamark-velodrome/" />
+                    <name><![CDATA[Huamark Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/huamark-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75746-v1/huamark-velodrome.jpg' alt='Huamark Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75746' class='map-link ' href='http://virtualglobetrotting.com/map/huamark-velodrome/' title='Huamark Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>100.62568400,13.75785200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75746-v1-micro/huamark-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3757">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/superdrome-in-frisco/" />
+                    <name><![CDATA[Superdrome in Frisco]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/superdrome-in-frisco/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3757-v1/superdrome-in-frisco.jpg' alt='Superdrome in Frisco' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3757' class='map-link ' href='http://virtualglobetrotting.com/map/superdrome-in-frisco/' title='Superdrome in Frisco'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 250 meter oval, 45 degree banking in the curves, 13 degrees in the straights.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 250 meter oval, 45 degree banking in the curves, 13 degrees in the straights.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-96.78991600,33.13150400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3757-v1-micro/superdrome-in-frisco.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75496">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/luis-carlos-galan-velodrome/" />
+                    <name><![CDATA[Luis Carlos Galan Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/luis-carlos-galan-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75496-v1/luis-carlos-galan-velodrome.jpg' alt='Luis Carlos Galan Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75496' class='map-link ' href='http://virtualglobetrotting.com/map/luis-carlos-galan-velodrome/' title='Luis Carlos Galan Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-74.09792300,4.66524700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75496-v1-micro/luis-carlos-galan-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55056">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/chemnitz-sportforum-velodrome/" />
+                    <name><![CDATA[Chemnitz Sportforum Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/chemnitz-sportforum-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55056-v1/chemnitz-sportforum-velodrome.jpg' alt='Chemnitz Sportforum Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55056' class='map-link ' href='http://virtualglobetrotting.com/map/chemnitz-sportforum-velodrome/' title='Chemnitz Sportforum Velodrome'>Read more...</a> <br />
+                This 333 meter track seats 15,000.  It is banked up to 45 degrees in the turns.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This 333 meter track seats 15,000.  It is banked up to 45 degrees in the turns.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>12.92979300,50.80336800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55056-v1-micro/chemnitz-sportforum-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75522">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/tbilisi-central-velodrome/" />
+                    <name><![CDATA[Tbilisi Central Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/tbilisi-central-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75522-v1/tbilisi-central-velodrome.jpg' alt='Tbilisi Central Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75522' class='map-link ' href='http://virtualglobetrotting.com/map/tbilisi-central-velodrome/' title='Tbilisi Central Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 228m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 228m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>44.79410600,41.71105800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75522-v1-micro/tbilisi-central-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35390">
+                    <atom:author>
+                        <atom:name>daggerwell (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/kawasaki-keirin-velodrome/" />
+                    <name><![CDATA[Kawasaki Keirin velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/kawasaki-keirin-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/5/35390-v1/kawasaki-keirin-velodrome.jpg' alt='Kawasaki Keirin velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/daggerwell/' title='daggerwell: Info'>daggerwell</a>. <br />
+                <a data-mid='35390' class='map-link ' href='http://virtualglobetrotting.com/map/kawasaki-keirin-velodrome/' title='Kawasaki Keirin velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>139.71077400,35.52829700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/5/35390-v1-micro/kawasaki-keirin-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="43761">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/meadowbank-velodrome/" />
+                    <name><![CDATA[Meadowbank Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/meadowbank-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/4/3/43761-v1/meadowbank-velodrome.jpg' alt='Meadowbank Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='43761' class='map-link ' href='http://virtualglobetrotting.com/map/meadowbank-velodrome/' title='Meadowbank Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-3.15191200,55.95656100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/4/3/43761-v1-micro/meadowbank-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75226">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/unanderra-velodrome/" />
+                    <name><![CDATA[Unanderra Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/unanderra-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75226-v1/unanderra-velodrome.jpg' alt='Unanderra Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75226' class='map-link ' href='http://virtualglobetrotting.com/map/unanderra-velodrome/' title='Unanderra Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 270m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 270m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>150.84025200,-34.45815900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75226-v1-micro/unanderra-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3782">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/marymoor-velodrome/" />
+                    <name><![CDATA[Marymoor Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/marymoor-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3782-v1/marymoor-velodrome.jpg' alt='Marymoor Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3782' class='map-link ' href='http://virtualglobetrotting.com/map/marymoor-velodrome/' title='Marymoor Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. 400 meter concrete oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. 400 meter concrete oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-122.11200700,47.66579400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3782-v1-micro/marymoor-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3965">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/perth-speeddome-velodrome/" />
+                    <name><![CDATA[Perth SpeedDome Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/perth-speeddome-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/9/3965-v1/perth-speeddome-velodrome.jpg' alt='Perth SpeedDome Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3965' class='map-link ' href='http://virtualglobetrotting.com/map/perth-speeddome-velodrome/' title='Perth SpeedDome Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. Indoor, Siberian Pine board surface, 250 meter oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. Indoor, Siberian Pine board surface, 250 meter oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>116.02616100,-31.87888000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/9/3965-v1-micro/perth-speeddome-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3775">
+                    <atom:author>
+                        <atom:name>8hangtime (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/san-diego-velodrome/" />
+                    <name><![CDATA[San Diego Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/san-diego-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/7/3775-v1/san-diego-velodrome.jpg' alt='San Diego Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/8hangtime/' title='8hangtime: Info'>8hangtime</a>. <br />
+                <a data-mid='3775' class='map-link ' href='http://virtualglobetrotting.com/map/san-diego-velodrome/' title='San Diego Velodrome'>Read more...</a> <br />
+                Olympic-style track bicycle racing venue. Located in Morley Park.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Olympic-style track bicycle racing venue. Located in Morley Park.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-117.14080100,32.73708000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/7/3775-v1-micro/san-diego-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="43763">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/friesenheim-velodrome/" />
+                    <name><![CDATA[Friesenheim Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/friesenheim-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/4/3/43763-v1/friesenheim-velodrome.jpg' alt='Friesenheim Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='43763' class='map-link ' href='http://virtualglobetrotting.com/map/friesenheim-velodrome/' title='Friesenheim Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>8.40384400,49.49767400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/4/3/43763-v1-micro/friesenheim-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75519">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/el-polvor-n-national-velodrome/" />
+                    <name><![CDATA[El Polvorín National Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/el-polvor-n-national-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75519-v1/el-polvor-n-national-velodrome.jpg' alt='El Polvor&iacute;n National Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75519' class='map-link ' href='http://virtualglobetrotting.com/map/el-polvor-n-national-velodrome/' title='El Polvor&iacute;n National Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-89.19516400,13.67976300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75519-v1-micro/el-polvor-n-national-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75552">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/paul-moreau-sports-complex/" />
+                    <name><![CDATA[Paul Moreau Sports Complex]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/paul-moreau-sports-complex/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75552-v1/paul-moreau-sports-complex.jpg' alt='Paul Moreau Sports Complex' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75552' class='map-link ' href='http://virtualglobetrotting.com/map/paul-moreau-sports-complex/' title='Paul Moreau Sports Complex'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>55.68500300,-20.99952300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75552-v1-micro/paul-moreau-sports-complex.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="27521">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/darmstadt-velodrome/" />
+                    <name><![CDATA[Darmstadt Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/darmstadt-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/7/27521-v1/darmstadt-velodrome.jpg' alt='Darmstadt Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='27521' class='map-link ' href='http://virtualglobetrotting.com/map/darmstadt-velodrome/' title='Darmstadt Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>8.64727600,49.85009400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/7/27521-v1-micro/darmstadt-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75317">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/elewijt-den-reggel-velodrome/" />
+                    <name><![CDATA[Elewijt (Den Reggel) Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/elewijt-den-reggel-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75317-v1/elewijt-den-reggel-velodrome.jpg' alt='Elewijt (Den Reggel) Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75317' class='map-link ' href='http://virtualglobetrotting.com/map/elewijt-den-reggel-velodrome/' title='Elewijt (Den Reggel) Velodrome'>Read more...</a> <br />
+                Outdoor, Asphalt, 377m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Asphalt, 377m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>4.50050500,50.96993100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75317-v1-micro/elewijt-den-reggel-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75503">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/martin-cochise-rodriguez-velodrome/" />
+                    <name><![CDATA[Martin "Cochise" Rodriguez Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/martin-cochise-rodriguez-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75503-v1/martin-cochise-rodriguez-velodrome.jpg' alt='Martin &quot;Cochise&quot; Rodriguez Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75503' class='map-link ' href='http://virtualglobetrotting.com/map/martin-cochise-rodriguez-velodrome/' title='Martin &quot;Cochise&quot; Rodriguez Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 250m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 250m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-75.59416500,6.25703600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75503-v1-micro/martin-cochise-rodriguez-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75497">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/alfonso-hurtado-velodrome/" />
+                    <name><![CDATA[Alfonso Hurtado Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/alfonso-hurtado-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75497-v1/alfonso-hurtado-velodrome.jpg' alt='Alfonso Hurtado Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75497' class='map-link ' href='http://virtualglobetrotting.com/map/alfonso-hurtado-velodrome/' title='Alfonso Hurtado Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-75.75412800,4.80465900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75497-v1-micro/alfonso-hurtado-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75890">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/amoranto-velodrome/" />
+                    <name><![CDATA[Amoranto Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/amoranto-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75890-v1/amoranto-velodrome.jpg' alt='Amoranto Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75890' class='map-link ' href='http://virtualglobetrotting.com/map/amoranto-velodrome/' title='Amoranto Velodrome'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>121.02339000,14.62989600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75890-v1-micro/amoranto-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75754">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/pontaise-velodrome/" />
+                    <name><![CDATA[Pontaise Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/pontaise-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/7/5/75754-v1/pontaise-velodrome.jpg' alt='Pontaise Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75754' class='map-link ' href='http://virtualglobetrotting.com/map/pontaise-velodrome/' title='Pontaise Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 250m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 250m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>6.62322000,46.53468900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/7/5/75754-v1-micro/pontaise-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55060">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dudenhofen-velodrome/" />
+                    <name><![CDATA[Dudenhofen Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dudenhofen-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55060-v1/dudenhofen-velodrome.jpg' alt='Dudenhofen Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55060' class='map-link ' href='http://virtualglobetrotting.com/map/dudenhofen-velodrome/' title='Dudenhofen Velodrome'>Read more...</a> <br />
+                This 250 meter track was built in 1992.  It is banked up to 40 degrees in the turns.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This 250 meter track was built in 1992.  It is banked up to 40 degrees in the turns.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>8.38896000,49.32158700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55060-v1-micro/dudenhofen-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="114285">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/v-lodrome-caisse-populaire-de-dieppe/" />
+                    <name><![CDATA[Vélodrome Caisse Populaire de Dieppe]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/v-lodrome-caisse-populaire-de-dieppe/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/1/1/114285-v1/v-lodrome-caisse-populaire-de-dieppe.jpg' alt='V&eacute;lodrome Caisse Populaire de Dieppe' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='114285' class='map-link ' href='http://virtualglobetrotting.com/map/v-lodrome-caisse-populaire-de-dieppe/' title='V&eacute;lodrome Caisse Populaire de Dieppe'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-64.71138420,46.06957605</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/1/1/114285-v1-micro/v-lodrome-caisse-populaire-de-dieppe.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="159236">
+                    <atom:author>
+                        <atom:name>Mike1989 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/velodromo-di-quartu-santelena/" />
+                    <name><![CDATA[Velodromo di Quartu Sant'Elena]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/velodromo-di-quartu-santelena/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/1/5/159236-v1/velodromo-di-quartu-santelena.jpg' alt='Velodromo di Quartu Sant&#039;Elena' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Mike1989/' title='Mike1989: Info'>Mike1989</a>. <br />
+                <a data-mid='159236' class='map-link ' href='http://virtualglobetrotting.com/map/velodromo-di-quartu-santelena/' title='Velodromo di Quartu Sant&#039;Elena'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>9.19933679,39.24599580</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/1/5/159236-v1-micro/velodromo-di-quartu-santelena.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55046">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/argyll-velodrome/" />
+                    <name><![CDATA[Argyll Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/argyll-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55046-v1/argyll-velodrome.jpg' alt='Argyll Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55046' class='map-link ' href='http://virtualglobetrotting.com/map/argyll-velodrome/' title='Argyll Velodrome'>Read more...</a> <br />
+                This 333 1/3 meter track was built in 1977 for the 1978 Commonwealth Games.  It is 7 meters wide and banked at 33 degrees in the corners.  Plans for a new indoor facility to be built at this location was approved by the local government in 2008.<br />
+<br />
+Adventurous riders can also take to the BMX track located next to the oval.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This 333 1/3 meter track was built in 1977 for the 1978 Commonwealth Games.  It is 7 meters wide and banked at 33 degrees in the corners.  Plans for a new indoor facility to be built at this location was approved by the local government in 2008.<br />
+<br />
+Adventurous riders can also take to the BMX track located next to the oval.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-113.46312700,53.50707400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55046-v1-micro/argyll-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="35188">
+                    <atom:author>
+                        <atom:name>DonMartini (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/velodrome-amsterdam/" />
+                    <name><![CDATA[Velodrome Amsterdam]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/velodrome-amsterdam/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/5/35188-v1/velodrome-amsterdam.jpg' alt='Velodrome Amsterdam' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/DonMartini/' title='DonMartini: Info'>DonMartini</a>. <br />
+                <a data-mid='35188' class='map-link ' href='http://virtualglobetrotting.com/map/velodrome-amsterdam/' title='Velodrome Amsterdam'>Read more...</a> <br />
+                The velodrome is a multifunctional centre with a cycling track as its main attraction.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The velodrome is a multifunctional centre with a cycling track as its main attraction.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>4.80780600,52.33963000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/5/35188-v1-micro/velodrome-amsterdam.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="75218">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/kdt-circuit-velodrome/" />
+                    <name><![CDATA[KDT Circuit Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/kdt-circuit-velodrome/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/5/75218-v1/kdt-circuit-velodrome.jpg' alt='KDT Circuit Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='75218' class='map-link ' href='http://virtualglobetrotting.com/map/kdt-circuit-velodrome/' title='KDT Circuit Velodrome'>Read more...</a> <br />
+                Outdoor, Concrete, 333m<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Outdoor, Concrete, 333m<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-58.40114100,-34.57058100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/5/75218-v1-micro/kdt-circuit-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55081">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/vel-drom-dhorta/" />
+                    <name><![CDATA[Velòdrom d'Horta]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/vel-drom-dhorta/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55081-v1/vel-drom-dhorta.jpg' alt='Vel&ograve;drom d&#039;Horta' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55081' class='map-link ' href='http://virtualglobetrotting.com/map/vel-drom-dhorta/' title='Vel&ograve;drom d&#039;Horta'>Read more...</a> <br />
+                This 250 meter wood-surface track was built in 1984.  The turns are banked as high as 43 degrees.  It was used in the 1992 Summer Olympics.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This 250 meter wood-surface track was built in 1984.  The turns are banked as high as 43 degrees.  It was used in the 1992 Summer Olympics.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>2.14877200,41.43806800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55081-v1-micro/vel-drom-dhorta.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="55049">
+                    <atom:author>
+                        <atom:name>milwhcky (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/juan-de-fuca-velodrome/" />
+                    <name><![CDATA[Juan de Fuca Velodrome]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/juan-de-fuca-velodrome/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/5/5/55049-v1/juan-de-fuca-velodrome.jpg' alt='Juan de Fuca Velodrome' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/milwhcky/' title='milwhcky: Info'>milwhcky</a>. <br />
+                <a data-mid='55049' class='map-link ' href='http://virtualglobetrotting.com/map/juan-de-fuca-velodrome/' title='Juan de Fuca Velodrome'>Read more...</a> <br />
+                Located at the Juan de Fuca Recreation Centre, this 333.3 meter track is banked at 28 degrees in the turns.<br />
+<br />
+An artificial turf athletic field is located in the infield of the track.  The facility also features two BMX tracks, four lawn bowling greens, a hockey rink, three baseball fields, tennis courts, beach volleyball, basketball courts, and a par 3 golf course.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Located at the Juan de Fuca Recreation Centre, this 333.3 meter track is banked at 28 degrees in the turns.<br />
+<br />
+An artificial turf athletic field is located in the infield of the track.  The facility also features two BMX tracks, four lawn bowling greens, a hockey rink, three baseball fields, tennis courts, beach volleyball, basketball courts, and a par 3 golf course.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-123.46437700,48.44370400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/5/5/55049-v1-micro/juan-de-fuca-velodrome.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark>	</Document>
+</kml>

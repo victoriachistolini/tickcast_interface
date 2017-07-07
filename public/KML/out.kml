@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<GroundOverlay>
+<name>X188</name>
+<Icon><href>out.png</href><viewBoundScale>0.75</viewBoundScale></Icon>
+	<LatLonBox>
+		<north>56.7321811954993</north><south>37.8563088957972</south><east>-51.6401686104306</east><west>-77.1765975779737</west>
+	</LatLonBox>
+</GroundOverlay></kml>

@@ -30,36 +30,11 @@ html
       var lons =     [-69.95894,-70.06456,-71.6082,-72.52522,-70.17932,-69.58903,-70.145709,-69.64608,-70.35823,-70.05698 ];
       var tick = ["Deer - Adult Female","Deer - Adult Male","Deer - Adult Male","Dog - Female","Deer - Adult    Female","Dog - Male","Dog - Female","Deer - Adult Female","Dog - Female", "Dog - Female"];
       
-      var male_deer = new google.maps.MarkerImage(
-                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "008000",
-                    new google.maps.Size(21, 34),
-                    new google.maps.Point(0,0),
-                    new google.maps.Point(10, 34)
-      );
-      
-      var female_deer = new google.maps.MarkerImage(
-                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "FE7569",
-                    new google.maps.Size(21, 34),
-                    new google.maps.Point(0,0),
-                    new google.maps.Point(10, 34)
-      );
-      
-      var male_dog = new google.maps.MarkerImage(
-                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "0000FF",
-                    new google.maps.Size(21, 34),
-                    new google.maps.Point(0,0),
-                    new google.maps.Point(10, 34)
-      );
-      
-      var female_dog = new google.maps.MarkerImage(
-                    "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "9370DB",
-                    new google.maps.Size(21, 34),
-                    new google.maps.Point(0,0),
-                    new google.maps.Point(10, 34)
-      );
-      
-      
-      
+      // create different colored icons for the different tick sexes
+      var male_deer = createNewIcon("008000")
+      var female_deer = createNewIcon("FE7569")
+      var male_dog = createNewIcon("0000FF")
+      var female_dog = createNewIcon("9370DB")
       
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -96,7 +71,7 @@ html
                       position: LatLng,
                       map: map,
               icon: male_dog
-               });
+             });
           }
          
 
@@ -105,7 +80,28 @@ html
         }      
       
       }
+      
+      function createNewIcon(color){
+        var icon = new google.maps.MarkerImage(
+                  "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + color,
+                   new google.maps.Size(21, 34),
+                   new google.maps.Point(0,0),
+                   new google.maps.Point(10, 34)
+                  );
+        
+                  return icon;
+      }
+      
+      function createNewMapPoint(LatLong, icon_style){
+        var pt = new google.maps.Marker({
+                  position: LatLong,
+                  map: map,
+              icon: icon_style
+           });
+           return pt;
+      }
      
+      //load map with markers
       google.maps.event.addDomListener(window, 'load', initMap);
     
 
