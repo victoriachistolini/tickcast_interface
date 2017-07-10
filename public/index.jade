@@ -1,39 +1,47 @@
-h1(align='center') Welcome to Tickcast
-
-.center-div
-  #map.mapbox
-  
+doctype html
+html
+  head
+    meta(name='viewport', content='initial-scale=1.0')
+    meta(charset='utf-8')
+    title KML Layers
+    style.
+      /* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+      #map {
+      height: 100%;
+      }
+      
+      
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+      height: 90%;
+      margin: 100;
+      padding: 100;
+ 
+    script.
+      function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 7,
+      minZoom: 5,
+      maxZoom: 9,
+      center: {lat: 44.8012, lng: -68.7778}
+       
+      });
+      var ctaLayer = new google.maps.KmlLayer({
+      url: "https://static.bigelow.org/data/tick.kml",
+      map: map,
+      opacity: 0.1
+      });
+      }
+    script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs&callback=initMap')
+  body
+    h1(align='center') Welcome to Tickcast
+    #map
   br
   br
-  br
-
   .slider
-    input(type='range', name='points', min='0', max='10')#slider
-
+    input(type='range', name='points', min='0', max='10',value='0')#slider
+  
   br
   br
-  br
-
-script(type="text/javascript").
-  $('#slider').mousemove(function() {
-    var theValue = $('#slider').val();
-  
-    if (theValue <2.5){
-      
-      $("#map").css("background-position-x", "-50px");
-      
-    } else if (theValue <5){
-      
-      $("#map").css("background-position-x", "-437px");      
-      
-    } else if(theValue <7.5){
-      
-      $("#map").css("background-position-x", "-822px");      
-    } else {
-      
-      $("#map").css("background-position-x", "-1208px");      
-    }
-    
-  
-  
-  });
+  br  
