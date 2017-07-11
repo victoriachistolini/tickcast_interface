@@ -1,39 +1,45 @@
 doctype html
 html
   head
-    meta(name='viewport', content='initial-scale=1.0')
+    meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
     meta(charset='utf-8')
-    title KML Layers
+    title Ground Overlays
     style.
       /* Always set the map height explicitly to define the size of the div
       * element that contains the map. */
       #map {
       height: 100%;
       }
-      
-      
       /* Optional: Makes the sample page fill the window. */
       html, body {
       height: 90%;
       margin: 100;
       padding: 100;
- 
+      }
     script.
+      
+      var forcastOverlay;
       function initMap() {
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 7,
-      minZoom: 5,
-      maxZoom: 9,
       center: {lat: 44.8012, lng: -68.7778}
-       
       });
-      var ctaLayer = new google.maps.KmlLayer({
-      url: "https://static.bigelow.org/data/tick.kml",
-      map: map,
-      opacity: 0.1
-      });
+      var overlayOpts = {
+           opacity:0.3
+       };
+      var imageBounds = {
+                north: 56.7321811954993,
+                south: 37.8563088957972,
+                east: -51.6401686104306,
+                west: -77.1765975779737
+      };
+      forcastOverlay = new google.maps.GroundOverlay(
+      "http://ocean-dev.bigelow.org/static/out.png",
+      imageBounds, overlayOpts);
+      forcastOverlay.setMap(map);
       }
     script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs&callback=initMap')
+
   body
     h1(align='center') Welcome to Tickcast
     #map

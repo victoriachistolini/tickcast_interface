@@ -24,11 +24,14 @@ html
       padding: 100;
       }
     script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
+    
+    //load tick point observations 
+    script(type='text/javascript', src='http://ocean-dev.bigelow.org/static/cleaned.json')
+    script(type='text/javascript', src='/js/maps.js')
+    
     script.
-      //process data
-      var lats =[43.8992,44.42977,42.854886,42.534976,43.801773,43.832642,43.815169,43.907812,43.682148,44.349542];
-      var lons =     [-69.95894,-70.06456,-71.6082,-72.52522,-70.17932,-69.58903,-70.145709,-69.64608,-70.35823,-70.05698 ];
-      var tick = ["Deer - Adult Female","Deer - Adult Male","Deer - Adult Male","Dog - Female","Deer - Adult    Female","Dog - Male","Dog - Female","Deer - Adult Female","Dog - Female", "Dog - Female"];
+    
+      var mydata = JSON.parse(data);
       
       // create different colored icons for the different tick sexes
       var male_deer = createNewIcon("008000")
@@ -42,25 +45,25 @@ html
           center: {lat: 44.8012, lng: -68.7778},
       
         });
-        for (i = 0; i < lats.length; i++) { 
+        for (i = 0; i < mydata.length; i++) { 
 
-           var LatLng = {lat: lats[i], lng: lons[i]};
+           var LatLng = {lat: mydata[i].Lat, lng: mydata[i].Lon};
           //determine marker color based on tick sex
-          if (tick[i] === "Deer - Adult Female"){
+          if (mydata[i].species === "Deer - Adult Female"){
            
             new google.maps.Marker({
                       position: LatLng,
                       map: map,
               icon: female_deer
             });
-          } else if (tick[i] ==="Deer - Adult Male"){
+          } else if (mydata[i].species ==="Deer - Adult Male"){
             new google.maps.Marker({
                       position: LatLng,
                       map: map,
               icon: male_deer
             });
             
-          } else if (tick[i] ==="Dog - Female"){
+          } else if (mydata[i].species ==="Dog - Female"){
             new google.maps.Marker({
                       position: LatLng,
                       map: map,
