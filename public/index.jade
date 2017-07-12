@@ -10,7 +10,7 @@ html
       #map {
       height: 100%;
       }
-      /* Optional: Makes the sample page fill the window. */
+      /* Makes the sample page fill the window. */
       html, body {
       height: 90%;
       margin: 100;
@@ -18,9 +18,15 @@ html
       }
     script.
       
+      var map;
       var forcastOverlay;
+      var forcastOverlay1;
+      var forcastOverlay2;
+      var forcastOverlay3;
+      
+      
       function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
+      map = new google.maps.Map(document.getElementById('map'), {
       zoom: 7,
       center: {lat: 44.8012, lng: -68.7778}
       });
@@ -28,26 +34,53 @@ html
            opacity:0.3
        };
       var imageBounds = {
-                north: 56.7321811954993,
-                south: 37.8563088957972,
-                east: -51.6401686104306,
-                west: -77.1765975779737
+                north: 48.1221341816001,
+                south: 40.9470950033508,
+                east: -59.6983306401886,
+                west: -73.9987308620128
       };
       forcastOverlay = new google.maps.GroundOverlay(
-      "http://ocean-dev.bigelow.org/static/out.png",
-      imageBounds, overlayOpts);
+      "http://ocean-dev.bigelow.org/static/out9.png",
+      imageBounds);
+      forcastOverlay.setOpacity(0.3);
       forcastOverlay.setMap(map);
+      
+      forcastOverlay1 = new google.maps.GroundOverlay(
+      "http://ocean-dev.bigelow.org/static/out_1.png",
+      imageBounds, overlayOpts);
+      
+      forcastOverlay2 = new google.maps.GroundOverlay(
+      "http://ocean-dev.bigelow.org/static/out_2.png",
+      imageBounds, overlayOpts);
+      
+      forcastOverlay3 = new google.maps.GroundOverlay(
+      "http://ocean-dev.bigelow.org/static/out_3.png",
+      imageBounds, overlayOpts);  
+      
       }
     script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs&callback=initMap')
 
+  
+    script(type="text/javascript").
+      function run(){
+      
+        console.log("HI!!");
+      }); 
+  
   body
     h1(align='center') Welcome to Tickcast
     #map
   br
-  br
-  .slider
-    input(type='range', name='points', min='0', max='10',value='0')#slider
+  br  
+    
+  //button.btn(type='button') Play Forcast
+  button(onclick='run()') Play Forcast  
   
   br
   br
   br  
+    
+    
+  
+    
+   
