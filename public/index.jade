@@ -39,9 +39,14 @@ html
                 east: -59.6983306401886,
                 west: -73.9987308620128
       };
+      
+      var bounds = new google.maps.LatLngBounds(
+        new google.maps.LatLng(40.9470950033508, -73.9987308620128),
+        new google.maps.LatLng(48.1221341816001, -59.6983306401886));
+        
       forcastOverlay = new google.maps.GroundOverlay(
       "http://ocean-dev.bigelow.org/static/out9.png",
-      imageBounds);
+      bounds);
       forcastOverlay.setOpacity(0.3);
       forcastOverlay.setMap(map);
       
