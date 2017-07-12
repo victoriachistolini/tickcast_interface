@@ -9,20 +9,33 @@
         a(href='https://report.bigelow.org/tick/') Report Ticks  
     #map
     br
-    br  
-
-    .slider
-    input(type='range', name='points', min='0', max='10',value='0')#slider
-    br
-    br
+    br      
     
   .col-md-3
-    h1 Other Forcasts
-    ul.nav.nav-pills.nav-stacked
-        li.active(role='presentation')
-          a(href='#') Jelly Fish
-        li.active(role='presentation')
-          a(href='#') Moose 
+    br
+    br        
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Forcast Control Panel
+      .panel-body
+        .slider
+          input(type='range', name='points', min='0', max='10',value='0')#slider 
+        br
+        #colorstrip        
+    br
+    br  
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Other Forcasts
+      .panel-body          
+        ul.nav.nav-pills.nav-stacked
+          li.active(role='presentation')
+            a(href='#') Jelly Fish
+          li.active(role='presentation')
+            a(href='#') Moose
+        
+ 
+      
 
 
 style.
@@ -39,6 +52,14 @@ style.
     height: 70vh;
     width: 100%;
   }
+  
+  #colorstrip{
+      height: 50px;
+      border-style: solid;
+      border-color: white;
+      background-image: -moz-linear-gradient(left, blue, green, yellow, red);
+  }
+  
 
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
 script.
@@ -130,18 +151,18 @@ script(type="text/javascript").
   $('#slider').mousemove(function() {
     var theValue = $('#slider').val();
 
-    if (theValue ==1){
+    if (theValue == 2){
   
       overlay.changeImage("http://ocean-dev.bigelow.org/static/out9.png");
   
-    } else if (theValue ==2){
+    } else if (theValue ==4){
   
      overlay.changeImage("http://ocean-dev.bigelow.org/static/out_4.png");  
   
-    } else if(theValue == 3){
+    } else if(theValue == 6){
   
        overlay.changeImage("http://ocean-dev.bigelow.org/static/out_3.png");       
-    } else if (theValue == 4){
+    } else if (theValue == 9){
   
        overlay.changeImage("http://ocean-dev.bigelow.org/static/out_2.png");      
     }
