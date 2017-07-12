@@ -1,134 +1,149 @@
-doctype html
-html
-  head
-    meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
-    meta(charset='utf-8')
-    title Showing/Hiding overlays
-    style.
-      /* Always set the map height explicitly to define the size of the div
-      * element that contains the map. */
-      #map {
-      height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-      height: 90%;
-      margin: 100;
-      padding: 100;
-      }
-
-    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
-    script.
-      // animate forcast
-      
-      var overlay;
-      var map;
-      forcastOverlay.prototype = new google.maps.OverlayView();
-      
-      function initMap() {
-        
-        map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 7,
-          center: {lat: 44.8012, lng: -68.7778},
-        });
-        
-        var bounds = new google.maps.LatLngBounds(
-          new google.maps.LatLng(40.9470950033508, -73.9987308620128),
-          new google.maps.LatLng(48.1221341816001, -59.6983306401886));
-          
-          var srcImage = "http://ocean-dev.bigelow.org/static/out9.png";
-          overlay = new forcastOverlay(srcImage,bounds);
-          
-
-        }
-        
-        
-        
-        /** @constructor */
-        function forcastOverlay( image,bounds) {
-          // Now initialize all properties.
-          this.bounds_ = bounds;
-          this.image_ = image;
-          this.div_ = null;
-          this.setMap(map);
-        }
-        
-        /**
-        * onAdd is called when the map's panes are ready and the overlay has been
-        * added to the map.
-        */
-        forcastOverlay.prototype.onAdd = function() {
-          var div = document.createElement('div');
-          div.style.border = 'none';
-          div.style.borderWidth = '0px';
-          div.style.position = 'absolute';
-          // Create the img element and attach it to the div.
-          var img = document.createElement('img');
-          img.src = this.image_;
-          img.style.width = '100%';
-          img.style.height = '100%';
-          img.style.opacity = 0.5;
-          div.appendChild(img);
-          this.div_ = div;
-          // Add the element to the "overlayImage" pane.
-          var panes = this.getPanes();
-          panes.overlayImage.appendChild(this.div_);
-        };
-        
-        
-        forcastOverlay.prototype.draw = function() {
-          // We use the south-west and north-east
-          // coordinates of the overlay to peg it to the correct position and size.
-          // To do this, we need to retrieve the projection from the overlay.
-          var overlayProjection = this.getProjection();
-          // Retrieve the south-west and north-east coordinates of this overlay
-          // in LatLngs and convert them to pixel coordinates.
-          // We'll use these coordinates to resize the div.
-          var sw = overlayProjection.fromLatLngToDivPixel(this.bounds_.getSouthWest());
-          var ne = overlayProjection.fromLatLngToDivPixel(this.bounds_.getNorthEast());
-          // Resize the image's div to fit the indicated dimensions.
-          var div = this.div_;
-          div.style.left = sw.x + 'px';
-          div.style.top = ne.y + 'px';
-          div.style.width = (ne.x - sw.x) + 'px';
-          div.style.height = (sw.y - ne.y) + 'px';
-        };
-        
-      
-        forcastOverlay.prototype.changeImage = function(new_url) {
-          this.div_.getElementsByTagName('img')[0].src= new_url;
-        };
-  
-      google.maps.event.addDomListener(window, 'load', initMap);
-  body
-    h1(align='center') Welcome to Tickcast
+.row
+  .col-md-9
+    ul.nav.nav-tabs
+      li.active(role='presentation')
+        a(href='#') Tick Forcast
+      li(role='presentation')
+        a(href='/map') About Tick Observations
+      li(role='presentation')
+        a(href='https://report.bigelow.org/tick/') Report Ticks  
     #map
-  br
-  br  
-    
-  .slider
+    br
+    br  
+
+    .slider
     input(type='range', name='points', min='0', max='10',value='0')#slider
-   
+    br
+    br
+    
+  .col-md-3
+    h1 Other Forcasts
+    ul.nav.nav-pills.nav-stacked
+        li.active(role='presentation')
+          a(href='#') Jelly Fish
+        li.active(role='presentation')
+          a(href='#') Moose 
+
+
+style.
+  /* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
   
-    script(type="text/javascript").
-      $('#slider').mousemove(function() {
-        var theValue = $('#slider').val();
+  body {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
   
-        if (theValue ==1){
-      
-          overlay.changeImage("http://ocean-dev.bigelow.org/static/out9.png");
-      
-        } else if (theValue ==2){
-      
-         overlay.changeImage("http://ocean-dev.bigelow.org/static/out_4.png");  
-      
-        } else if(theValue == 3){
-      
-           overlay.changeImage("http://ocean-dev.bigelow.org/static/out_3.png");       
-        } else if (theValue == 4){
-      
-           overlay.changeImage("http://ocean-dev.bigelow.org/static/out_2.png");      
-        }
+  /* Optional: Makes the sample page fill the window. */
+  #map {
+    height: 70vh;
+    width: 100%;
+  }
+
+script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
+script.
+  // animate forcast
   
-      });
+  var overlay;
+  var map;
+  forcastOverlay.prototype = new google.maps.OverlayView();
   
+  function initMap() {
+    
+    map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 7,
+      center: {lat: 44.8012, lng: -68.7778},
+    });
+    
+    var bounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(40.9470950033508, -73.9987308620128),
+      new google.maps.LatLng(48.1221341816001, -59.6983306401886));
+      
+      var srcImage = "http://ocean-dev.bigelow.org/static/out9.png";
+      overlay = new forcastOverlay(srcImage,bounds);
+      
+
+    }
+    
+    
+    
+    /** @constructor */
+    function forcastOverlay( image,bounds) {
+      // Now initialize all properties.
+      this.bounds_ = bounds;
+      this.image_ = image;
+      this.div_ = null;
+      this.setMap(map);
+    }
+    
+    /**
+    * onAdd is called when the map's panes are ready and the overlay has been
+    * added to the map.
+    */
+    forcastOverlay.prototype.onAdd = function() {
+      var div = document.createElement('div');
+      div.style.border = 'none';
+      div.style.borderWidth = '0px';
+      div.style.position = 'absolute';
+      // Create the img element and attach it to the div.
+      var img = document.createElement('img');
+      img.src = this.image_;
+      img.style.width = '100%';
+      img.style.height = '100%';
+      img.style.opacity = 0.5;
+      div.appendChild(img);
+      this.div_ = div;
+      // Add the element to the "overlayImage" pane.
+      var panes = this.getPanes();
+      panes.overlayImage.appendChild(this.div_);
+    };
+    
+    
+    forcastOverlay.prototype.draw = function() {
+      // We use the south-west and north-east
+      // coordinates of the overlay to peg it to the correct position and size.
+      // To do this, we need to retrieve the projection from the overlay.
+      var overlayProjection = this.getProjection();
+      // Retrieve the south-west and north-east coordinates of this overlay
+      // in LatLngs and convert them to pixel coordinates.
+      // We'll use these coordinates to resize the div.
+      var sw = overlayProjection.fromLatLngToDivPixel(this.bounds_.getSouthWest());
+      var ne = overlayProjection.fromLatLngToDivPixel(this.bounds_.getNorthEast());
+      // Resize the image's div to fit the indicated dimensions.
+      var div = this.div_;
+      div.style.left = sw.x + 'px';
+      div.style.top = ne.y + 'px';
+      div.style.width = (ne.x - sw.x) + 'px';
+      div.style.height = (sw.y - ne.y) + 'px';
+    };
+    
+  
+    forcastOverlay.prototype.changeImage = function(new_url) {
+      this.div_.getElementsByTagName('img')[0].src= new_url;
+    };
+
+  google.maps.event.addDomListener(window, 'load', initMap);
+
+
+
+script(type="text/javascript").
+  $('#slider').mousemove(function() {
+    var theValue = $('#slider').val();
+
+    if (theValue ==1){
+  
+      overlay.changeImage("http://ocean-dev.bigelow.org/static/out9.png");
+  
+    } else if (theValue ==2){
+  
+     overlay.changeImage("http://ocean-dev.bigelow.org/static/out_4.png");  
+  
+    } else if(theValue == 3){
+  
+       overlay.changeImage("http://ocean-dev.bigelow.org/static/out_3.png");       
+    } else if (theValue == 4){
+  
+       overlay.changeImage("http://ocean-dev.bigelow.org/static/out_2.png");      
+    }
+
+  });
