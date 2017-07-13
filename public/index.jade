@@ -18,10 +18,22 @@
       .panel-heading
         h3.panel-title Forcast Control Panel
       .panel-body
-        .slider
-          input(type='range', name='points', min='0', max='10',value='0')#slider 
-        br
-        #colorstrip        
+        .row
+          .col-md-7
+            p Play Forcast:
+            br
+            .slider
+              input(type='range', name='points', min='0', max='10',value='0')#slider 
+            br
+          .col-md-5
+            p Date:
+            br
+            p#date 07-09-2017
+        p Liklihood of Tick Encounter:
+        #colorstrip
+        .pull-right High
+        div Low
+                
     br
     br  
     .panel.panel-default
@@ -59,8 +71,7 @@ style.
       border-color: white;
       background-image: -moz-linear-gradient(left, blue, green, yellow, red);
   }
-  
-
+    
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
 script.
   // animate forcast
@@ -80,7 +91,7 @@ script.
       new google.maps.LatLng(40.9470950033508, -73.9987308620128),
       new google.maps.LatLng(48.1221341816001, -59.6983306401886));
       
-      var srcImage = "http://ocean-dev.bigelow.org/static/out9.png";
+      var srcImage = "http://ocean-dev.bigelow.org/static/07-09-2017.png";
       overlay = new forcastOverlay(srcImage,bounds);
       
 
@@ -153,18 +164,23 @@ script(type="text/javascript").
 
     if (theValue == 2){
   
-      overlay.changeImage("http://ocean-dev.bigelow.org/static/out9.png");
+      overlay.changeImage("http://ocean-dev.bigelow.org/static/07-09-2017.png");
+      document.getElementById("date").innerHTML = "07-09-2017";
   
     } else if (theValue ==4){
   
-     overlay.changeImage("http://ocean-dev.bigelow.org/static/out_4.png");  
+     overlay.changeImage("http://ocean-dev.bigelow.org/static/07-10-2017.png"); 
+     document.getElementById("date").innerHTML = "07-10-2017";
+      
   
     } else if(theValue == 6){
   
-       overlay.changeImage("http://ocean-dev.bigelow.org/static/out_3.png");       
+       overlay.changeImage("http://ocean-dev.bigelow.org/static/07-11-2017.png");
+       document.getElementById("date").innerHTML = "07-11-2017";       
     } else if (theValue == 9){
   
-       overlay.changeImage("http://ocean-dev.bigelow.org/static/out_2.png");      
+       overlay.changeImage("http://ocean-dev.bigelow.org/static/07-12-2017.png");
+       document.getElementById("date").innerHTML = "07-12-2017";      
     }
 
   });
