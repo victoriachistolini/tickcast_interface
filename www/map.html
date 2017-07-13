@@ -1,65 +1,43 @@
-<!DOCTYPE html><html><head><title>Ecological Forcasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forcasting</h1></div><!-- document to display tick observations on map--><!-- would be nice to let user select some filter aspects such as --><!-- what time period of data to display and what tick species --><!-- need to display different species / sexes in different colors.--><!-- need a way to format data so that we can do this ????-->
-<!DOCTYPE html><html><head><meta name="viewport" content="initial-scale=1,user-scalable=no"><meta charset="utf-8"><title>Ecological Forcasting</title><style>/* Always set the map height explicitly to define the size of the div
+<!DOCTYPE html><html><head><title>Ecological Forcasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forcasting</h1></div><div id="map"></div><style>/* Always set the map height explicitly to define the size of the div
 * element that contains the map. */
-#map {
-height: 100%;
-}
-/* Optional: Makes the sample page fill the window. */
-html, body {
-height: 90%;
-margin: 100;
-padding: 100;
-}</style><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs"></script><!--load tick point observations --><script type="text/javascript" src="http://ocean-dev.bigelow.org/static/cleaned.json"></script><script type="text/javascript" src="/js/maps.js"></script><script>var mydata = JSON.parse(data);
 
-// create different colored icons for the different tick sexes
-var male_deer = createNewIcon("008000")
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+#map {
+  height: 70vh;
+  width: 100%;
+}
+</style><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs"></script><script>var male_deer = createNewIcon("008000")
 var female_deer = createNewIcon("FE7569")
 var male_dog = createNewIcon("0000FF")
 var female_dog = createNewIcon("9370DB")
-
+var map;
 function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(document.getElementById('map'), {
     zoom: 7,
     center: {lat: 44.8012, lng: -68.7778},
 
   });
-  for (i = 0; i < mydata.length; i++) { 
+  
+  //load JSON object 
+  var dataset=$.ajax({
+    url:'/data/cleaned.JSON',
+    dataType: 'json'    
+    })
+   .done(function( data ) {
 
-     var LatLng = {lat: mydata[i].Lat, lng: mydata[i].Lon};
-    //determine marker color based on tick sex
-    if (mydata[i].species === "Deer - Adult Female"){
-     
-      new google.maps.Marker({
-                position: LatLng,
-                map: map,
-        icon: female_deer
-      });
-    } else if (mydata[i].species ==="Deer - Adult Male"){
-      new google.maps.Marker({
-                position: LatLng,
-                map: map,
-        icon: male_deer
-      });
-      
-    } else if (mydata[i].species ==="Dog - Female"){
-      new google.maps.Marker({
-                position: LatLng,
-                map: map,
-        icon: female_dog
-       });
-    } else{
-      new google.maps.Marker({
-                position: LatLng,
-                map: map,
-        icon: male_dog
-       });
-    }
-   
+       console.log( "Sample of data:", data.slice( 0, 5 ) );
 
+       for (var i = 0; i < data.length; i++) { 
+         console.log(data[i].Lat)
+         loadData(data[i])
+       }
 
-          
-  }      
-
+   });
 }
 
 function createNewIcon(color){
@@ -73,18 +51,38 @@ function createNewIcon(color){
             return icon;
 }
 
-function createNewMapPoint(LatLong, icon_style){
-  var pt = new google.maps.Marker({
-            position: LatLong,
-            map: map,
-        icon: icon_style
-     });
-     return pt;
+//load one JSON object
+function loadData(data){
+
+     var LatLng = {lat: data.Lat, lng: data.Lon};
+    //determine marker color based on tick sex
+    if (data.species === "Deer - Adult Female"){
+     
+      new google.maps.Marker({
+                position: LatLng,
+                map: map,
+        icon: female_deer
+      });
+    } else if (data.species ==="Deer - Adult Male"){
+      new google.maps.Marker({
+                position: LatLng,
+                map: map,
+        icon: male_deer
+      });
+      
+    } else if (data.species ==="Dog - Female"){
+      new google.maps.Marker({
+                position: LatLng,
+                map: map,
+        icon: female_dog
+       });
+    } else{
+      new google.maps.Marker({
+                position: LatLng,
+                map: map,
+        icon: male_dog
+       });
+    }       
 }
 
-//load map with markers
-google.maps.event.addDomListener(window, 'load', initMap);
-
-
-
-</script></head><body><h1 align="center">Where Do Our Observations Come From?</h1><div id="map"></div></body></html></body></html>
+google.maps.event.addDomListener(window, 'load', initMap); </script></body></html>
