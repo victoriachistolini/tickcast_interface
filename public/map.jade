@@ -1,18 +1,66 @@
-#map
+.row
+  .col-md-9
+    #map
+  .col-md-3
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Map Key
+      .panel-body
+        .row
+          .col-md-5
+            #blueIcon
+            br
+            #greenIcon
+            br
+            #pinkIcon
+            br
+            #purpleIcon
+          .col-md-7
+            div Male Dog Tick
+            br
+            div Male Deer TIck
+            br
+            div Female Deer Tick
+            br
+            div Female Dog Tick
+            
+
+
 style.
-  /* Always set the map height explicitly to define the size of the div
-  * element that contains the map. */
   
   body {
     margin-left: 50px;
     margin-right: 50px;
   }
-  
-  /* Optional: Makes the sample page fill the window. */
+
   #map {
     height: 70vh;
     width: 100%;
   }
+  
+  #blueIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#0000FF; 
+  }
+  
+  #greenIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#008000; 
+  } 
+  
+  #pinkIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#FE7569; 
+  } 
+  
+  #purpleIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#9370DB; 
+  } 
   
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
 script.

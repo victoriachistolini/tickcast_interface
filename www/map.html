@@ -1,16 +1,36 @@
-<!DOCTYPE html><html><head><title>Ecological Forcasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forcasting</h1></div><div id="map"></div><style>/* Always set the map height explicitly to define the size of the div
-* element that contains the map. */
-
-body {
+<!DOCTYPE html><html><head><title>Ecological Forecasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forecasting</h1></div><div class="row"><div class="col-md-9"><div id="map"></div></div><div class="col-md-3"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Map Key</h3></div><div class="panel-body"><div class="row"><div class="col-md-5"><div id="blueIcon"></div><br><div id="greenIcon"></div><br><div id="pinkIcon"></div><br><div id="purpleIcon"></div></div><div class="col-md-7"><div>Male Dog Tick</div><br><div>Male Deer TIck</div><br><div>Female Deer Tick</div><br><div>Female Dog Tick</div></div></div></div></div></div></div><style>body {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-/* Optional: Makes the sample page fill the window. */
 #map {
   height: 70vh;
   width: 100%;
 }
+
+#blueIcon {
+width: 60px;
+height: 20px;
+background-color:#0000FF; 
+}
+
+#greenIcon {
+width: 60px;
+height: 20px;
+background-color:#008000; 
+} 
+
+#pinkIcon {
+width: 60px;
+height: 20px;
+background-color:#FE7569; 
+} 
+
+#purpleIcon {
+width: 60px;
+height: 20px;
+background-color:#9370DB; 
+} 
 </style><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs"></script><script>var male_deer = createNewIcon("008000")
 var female_deer = createNewIcon("FE7569")
 var male_dog = createNewIcon("0000FF")
