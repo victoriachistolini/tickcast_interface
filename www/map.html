@@ -45,18 +45,13 @@ function initMap() {
   
   //load JSON object 
   var dataset=$.ajax({
-    url:'/data/cleaned.JSON',
+    url:"http://ocean-dev.bigelow.org/static/07-12-2017.png",
     dataType: 'json'    
     })
    .done(function( data ) {
-
-       console.log( "Sample of data:", data.slice( 0, 5 ) );
-
        for (var i = 0; i < data.length; i++) { 
-         console.log(data[i].Lat)
          loadData(data[i])
        }
-
    });
 }
 
