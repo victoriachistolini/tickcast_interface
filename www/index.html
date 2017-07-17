@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><title>Ecological Forecasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forecasting</h1></div><div class="row"><div class="col-md-9"><ul class="nav nav-tabs"><li role="presentation" class="active"><a href="#">Tick Forecast</a></li><li role="presentation"><a href="/map">About Tick Observations</a></li><li role="presentation"><a href="https://report.bigelow.org/tick/">Report Ticks  </a></li></ul><div id="map"></div><br><br></div><div class="col-md-3"><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Forecast Control Panel</h3></div><div class="panel-body"><div class="row"><div class="col-md-7"><p>Play Forecast:</p><br><div class="slider"><input type="range" name="points" min="0" max="10" value="0" id="slider"></div><br></div><div class="col-md-5"><p>Date:</p><br><p id="date">07-09-2017</p></div></div><p>Liklihood of Tick Encounter:</p><div id="colorstrip"></div><div class="pull-right">High</div><div>Low</div></div></div><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Other Forecasts</h3></div><div class="panel-body">         <ul class="nav nav-pills nav-stacked"><li role="presentation" class="active"><a href="#">Jelly Fish</a></li><li role="presentation" class="active"><a href="#">Moose</a></li></ul></div></div></div></div><style>body {
+<!DOCTYPE html><html><head><title>Ecological Forecasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script><script src="/js/date.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forecasting</h1></div><div class="row"><div class="col-md-9"><ul class="nav nav-tabs"><li role="presentation" class="active"><a href="#">Tick Forecast</a></li><li role="presentation"><a href="/map">About Tick Observations</a></li><li role="presentation"><a href="https://report.bigelow.org/tick/">Report Ticks  </a></li></ul><div id="map"></div><br><br></div><div class="col-md-3"><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Forecast Control Panel</h3></div><div class="panel-body"><div class="row"><div class="col-md-7"><p>Play Forecast:</p><br><div class="slider"><input type="range" name="points" min="0" max="10" value="0" id="slider"></div><br></div><div class="col-md-5"><p>Date:</p><br><p id="date">07-09-2017</p></div></div><p>Liklihood of Tick Encounter:</p><div id="colorstrip"></div><div class="pull-right">High</div><div>Low</div></div></div><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Other Forecasts</h3></div><div class="panel-body">         <ul class="nav nav-pills nav-stacked"><li role="presentation" class="active"><a href="#">Jelly Fish</a></li><li role="presentation" class="active"><a href="#">Moose</a></li></ul></div></div></div></div><style>body {
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -12,10 +12,21 @@
     height: 50px;
     border-style: solid;
     border-color: white;
+    background-image: -webkit-linear-gradient(left, blue, green, yellow, red);
     background-image: -moz-linear-gradient(left, blue, green, yellow, red);
+    background-image: -o-linear-gradient(left, blue, green, yellow, red);
+    background-image: linear-gradient(left, blue, green, yellow, red);
 }
-  </style><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs"></script><script>// animate forcast
+  </style><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs"></script><script>var threedaysago = (3).days().ago().toString("MM-dd-yyyy");
+var twodaysago = (2).days().ago().toString("MM-dd-yyyy");
+var yesterday = (1).days().ago().toString("MM-dd-yyyy");
+var today = new Date.today().toString("MM-dd-yyyy");
+var tomorrow = new Date.today().addDays(1).toString("MM-dd-yyyy");
+var twodaysfromnow = new Date.today().addDays(2).toString("MM-dd-yyyy");
+var threedaysfromnow = new Date.today().addDays(3).toString("MM-dd-yyyy");
 
+
+// animate forcast
 var overlay;
 var map;
 forcastOverlay.prototype = new google.maps.OverlayView();
@@ -31,7 +42,8 @@ function initMap() {
     new google.maps.LatLng(40.9470950033508, -73.9987308620128),
     new google.maps.LatLng(48.1221341816001, -59.6983306401886));
     
-    var srcImage = "http://ocean-dev.bigelow.org/static/07-09-2017.png";
+    var srcImage = "https://static.bigelow.org/data/ecocast/tick/"+today+".png";
+    document.getElementById("date").innerHTML = today;
     overlay = new forcastOverlay(srcImage,bounds);
     
 
@@ -102,23 +114,23 @@ google.maps.event.addDomListener(window, 'load', initMap);
 
   if (theValue == 2){
 
-    overlay.changeImage("http://ocean-dev.bigelow.org/static/07-09-2017.png");
-    document.getElementById("date").innerHTML = "07-09-2017";
+    overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+threedaysago+".png");
+    document.getElementById("date").innerHTML = threedaysago;
 
   } else if (theValue ==4){
 
-   overlay.changeImage("http://ocean-dev.bigelow.org/static/07-10-2017.png"); 
-   document.getElementById("date").innerHTML = "07-10-2017";
+   overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+twodaysago+".png"); 
+   document.getElementById("date").innerHTML = twodaysago;
     
 
   } else if(theValue == 6){
 
-     overlay.changeImage("http://ocean-dev.bigelow.org/static/07-11-2017.png");
-     document.getElementById("date").innerHTML = "07-11-2017";       
+     overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+yesterday+".png");
+     document.getElementById("date").innerHTML = yesterday;       
   } else if (theValue == 9){
 
-     overlay.changeImage("http://ocean-dev.bigelow.org/static/07-12-2017.png");
-     document.getElementById("date").innerHTML = "07-12-2017";      
+     overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
+     document.getElementById("date").innerHTML = today;      
   }
 
 });</script></body></html>

@@ -66,13 +66,25 @@ style.
       height: 50px;
       border-style: solid;
       border-color: white;
+      background-image: -webkit-linear-gradient(left, blue, green, yellow, red);
       background-image: -moz-linear-gradient(left, blue, green, yellow, red);
+      background-image: -o-linear-gradient(left, blue, green, yellow, red);
+      background-image: linear-gradient(left, blue, green, yellow, red);
   }
     
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
 script.
-  // animate forcast
+
+  var threedaysago = (3).days().ago().toString("MM-dd-yyyy");
+  var twodaysago = (2).days().ago().toString("MM-dd-yyyy");
+  var yesterday = (1).days().ago().toString("MM-dd-yyyy");
+  var today = new Date.today().toString("MM-dd-yyyy");
+  var tomorrow = new Date.today().addDays(1).toString("MM-dd-yyyy");
+  var twodaysfromnow = new Date.today().addDays(2).toString("MM-dd-yyyy");
+  var threedaysfromnow = new Date.today().addDays(3).toString("MM-dd-yyyy");
   
+
+  // animate forcast
   var overlay;
   var map;
   forcastOverlay.prototype = new google.maps.OverlayView();
@@ -88,7 +100,8 @@ script.
       new google.maps.LatLng(40.9470950033508, -73.9987308620128),
       new google.maps.LatLng(48.1221341816001, -59.6983306401886));
       
-      var srcImage = "http://ocean-dev.bigelow.org/static/07-09-2017.png";
+      var srcImage = "https://static.bigelow.org/data/ecocast/tick/"+today+".png";
+      document.getElementById("date").innerHTML = today;
       overlay = new forcastOverlay(srcImage,bounds);
       
 
@@ -161,23 +174,23 @@ script(type="text/javascript").
 
     if (theValue == 2){
   
-      overlay.changeImage("http://ocean-dev.bigelow.org/static/07-09-2017.png");
-      document.getElementById("date").innerHTML = "07-09-2017";
+      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+threedaysago+".png");
+      document.getElementById("date").innerHTML = threedaysago;
   
     } else if (theValue ==4){
   
-     overlay.changeImage("http://ocean-dev.bigelow.org/static/07-10-2017.png"); 
-     document.getElementById("date").innerHTML = "07-10-2017";
+     overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+twodaysago+".png"); 
+     document.getElementById("date").innerHTML = twodaysago;
       
   
     } else if(theValue == 6){
   
-       overlay.changeImage("http://ocean-dev.bigelow.org/static/07-11-2017.png");
-       document.getElementById("date").innerHTML = "07-11-2017";       
+       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+yesterday+".png");
+       document.getElementById("date").innerHTML = yesterday;       
     } else if (theValue == 9){
   
-       overlay.changeImage("http://ocean-dev.bigelow.org/static/07-12-2017.png");
-       document.getElementById("date").innerHTML = "07-12-2017";      
+       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
+       document.getElementById("date").innerHTML = today;      
     }
 
   });
