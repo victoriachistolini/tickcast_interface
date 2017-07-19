@@ -23,7 +23,7 @@
             p Play Forecast:
             br
             .slider
-              input(type='range', name='points', min='0', max='10',value='0')#slider 
+              input(type='range', name='points', min='0', max='5',value='0')#slider 
             br
           .col-md-5
             p Date:
@@ -172,25 +172,25 @@ script(type="text/javascript").
   $('#slider').mousemove(function() {
     var theValue = $('#slider').val();
 
-    if (theValue == 2){
+    if (theValue == 1){
   
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+threedaysago+".png");
-      document.getElementById("date").innerHTML = threedaysago;
+      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
+      document.getElementById("date").innerHTML = today;
   
-    } else if (theValue ==4){
+    } else if (theValue ==2){
   
-     overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+twodaysago+".png"); 
-     document.getElementById("date").innerHTML = twodaysago;
+     overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+tomorrow+".png"); 
+     document.getElementById("date").innerHTML = tomorrow;
       
   
-    } else if(theValue == 6){
+    } else if(theValue == 3){
   
-       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+yesterday+".png");
-       document.getElementById("date").innerHTML = yesterday;       
-    } else if (theValue == 9){
+       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+".png");
+       document.getElementById("date").innerHTML = twodaysfromnow;       
+    } else if (theValue == 4){
   
-       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
-       document.getElementById("date").innerHTML = today;      
+       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+".png");
+       document.getElementById("date").innerHTML = threedaysfromnow;      
     }
 
   });
