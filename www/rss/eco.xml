@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding=""?>
+<rss version="2.0">
+<channel>
+
+<title>Ecocast Forecasts</title>
+<description>Ecological Forcasts for tick, jelly fish and other species encounters</description>
+<link>http://eco.bigelow.org/podcast.html</link>
+
+
+<image>
+<link>http://eco.bigelow.org/podcast.html</link>
+<url></url>
+<width></width>
+<height></height>
+</image>
+
+<item>
+<title>Episode 6 </title>
+<description>The description goes here</description>
+<link>http://www.linkgoeshere.com</link>
+<enclosure url="http://www.mp4" length="" type="video/mpeg" />
+<category>technology</category>
+</item>
+
+<item>
+<title>Episode 5 </title>
+<description>Another description goes here</description>
+<link>http://www.anotherlinkgoeshere.com</link>
+<enclosure url="http://www.mp4" length="" type="video/mpeg" />
+<category>technology</category>
+</item>
+
+  
+</channel>
+</rss>

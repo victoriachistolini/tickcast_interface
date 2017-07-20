@@ -1,6 +1,35 @@
 h2 
   Ecological Podcasts
 br
+nav.navbar.navbar-default
+  .container-fluid
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='index.html') Forecast
+    // Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li.active
+          a(href='https://report.bigelow.org/tick/')
+            | Report Ticks
+          span.sr-only 
+        li
+          a(href='/map.html') About Tick Observations
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+            | Other Species 
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href='#') Jelly Fish
+            li.divider(role='separator')
+            li
+              a(href='#') Moose
 #coverArt
 br
 .row
@@ -14,6 +43,29 @@ br
       br
       audio(controls='')
         source(src='/audio/Ecocast2017.07.14.m4a', type='audio/mp4')
+      br
+
+    .well
+      .page-header
+        h1
+          small Episode 4 - 
+          br
+          small The Weekend Update June 30, 2017
+      br
+      audio(controls='')
+        source(src='/audio/Ecocast2017.06.30.m4a', type='audio/mp4')
+      br
+  
+    .well
+      .page-header
+        h1
+          small Episode 2 - 
+          br
+          small The Weekend Update June 9, 2017
+      br
+      audio(controls='')
+        source(src='/audio/Ecocast2017.06.09.m4a', type='audio/mp4')
+      br
   
   .col-md-6
     .well
@@ -25,6 +77,29 @@ br
       br
       audio(controls='')
         source(src='/audio/Ecocast2017.07.07.m4a', type='audio/mp4')
+      br
+
+
+    .well
+      .page-header
+        h1
+          small Episode 3 - 
+          br
+          small The Weekend Update June 23, 2017
+      br
+      audio(controls='')
+        source(src='/audio/Ecocast2017.06.23.m4a', type='audio/mp4')
+      br
+
+    .well
+      .page-header
+        h1
+          small Episode 1 - 
+          br
+          small The Weekend Update June 2, 2017
+      br
+      audio(controls='')
+        source(src='/audio/Ecocast2017.06.02.m4a', type='audio/mp4')
 style.
   
   body {
