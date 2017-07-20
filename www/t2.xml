@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Ecological Forecasting</title>
+<link>http://eco.bigelow.org</link>
+<language>en-us</language>
+<copyright>&#x2117; &amp; &#xA9; 2017 Eco &amp; Family</copyright>
+<itunes:subtitle>Forecasts about Ticks</itunes:subtitle>
+<itunes:author>Ecocast Forecasting</itunes:author>
+<itunes:summary>Ecological Forcasts for tick, jelly fish and other species encounters</itunes:summary>
+<description>Weekly updates about Tick and Jelly Fish Forcasts</description>
+<itunes:owner>
+<itunes:name>ecocast team</itunes:name>
+<itunes:email>ecocast@bigelow.org</itunes:email>
+</itunes:owner>
+<itunes:image href="http://eco.bigelow.org/images/cover.jpg"/>
+<itunes:category text="Technology">
+</itunes:category>
+<itunes:explicit>no</itunes:explicit>
+<item>
+<title>Episode 6</title>
+<itunes:author>ecocast team</itunes:author>
+<itunes:subtitle>The Weekend Update July 14, 2017</itunes:subtitle>
+<itunes:summary><![CDATA[<greeting>Hello, world!</greeting>]]> </itunes:summary>
+<itunes:image href="http://eco.bigelow.org/images/cover.jpg"/>
+<enclosure length="2486750" type="audio/x-m4a" url="http://eco.bigelow.org/audio/Ecocast2017.07.14.m4a"/>
+<guid>http://eco.bigelow.org/audio/Ecocast2017.07.14.m4a</guid>
+<pubDate>Thu, 10 Mar 2016 02:00:00 -0700</pubDate>
+<itunes:duration>01:23</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+</item>
+</channel>
+</rss>
