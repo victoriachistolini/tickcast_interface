@@ -10,7 +10,7 @@
 <itunes:summary>Ecological Forcasts for tick, jelly fish and other species encounters</itunes:summary>
 <description>Weekly updates about Tick and Jelly Fish Forcasts</description>
 <itunes:owner>
-<itunes:name>ecocast team</itunes:name>
+<itunes:name>Ecocast Team</itunes:name>
 <itunes:email>ecocast@bigelow.org</itunes:email>
 </itunes:owner>
 <itunes:image href="https://eco.bigelow.org/images/art.jpg"/>
@@ -21,9 +21,9 @@
 <title>Episode 6</title>
 <itunes:author>ecocast team</itunes:author>
 <itunes:subtitle>The Weekend Update July 14, 2017</itunes:subtitle>
-<itunes:summary><![CDATA[<greeting>Hello, world!</greeting>]]> </itunes:summary>
+<itunes:summary><![CDATA[<greeting>First Episode!</greeting>]]> </itunes:summary>
 <itunes:image href="https://eco.bigelow.org/images/cover.jpg"/>
-<enclosure length="2486750" type="audio/x-m4a" url="https://eco.bigelow.org/audio/Ecocast2017.07.14.m4a"/>
+<enclosure length="1668219" type="audio/mpeg" url="https://eco.bigelow.org/audio/Ecocast2017.07.14.m4a"/>
 <guid>https://eco.bigelow.org/audio/Ecocast2017.07.14.m4a</guid>
 <pubDate>Thu, 10 Mar 2016 02:00:00 -0700</pubDate>
 <itunes:duration>01:23</itunes:duration>
