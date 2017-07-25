@@ -4,7 +4,7 @@
 <title>Ecological Forecasting</title>
 <link>https://eco.bigelow.org</link>
 <language>en-us</language>
-<copyright>&#x2117; &amp; &#xA9; 2017 Eco &amp; Family</copyright>
+<copyright>&#xA9; 2017 Eco</copyright>
 <itunes:subtitle>Forecasts about Ticks</itunes:subtitle>
 <itunes:author>Ecocast Forecasting</itunes:author>
 <itunes:summary>Ecological Forcasts for tick, jelly fish and other species encounters</itunes:summary>
@@ -13,20 +13,75 @@
 <itunes:name>Ecocast Team</itunes:name>
 <itunes:email>ecocast@bigelow.org</itunes:email>
 </itunes:owner>
-<itunes:image href="https://eco.bigelow.org/images/art.jpg"/>
+<itunes:image href="https://eco.bigelow.org/images/album.jpg"/>
 <itunes:category text="Technology">
 </itunes:category>
 <itunes:explicit>no</itunes:explicit>
 <item>
 <title>Episode 6</title>
-<itunes:author>ecocast team</itunes:author>
+<itunes:author>Ecocast Team</itunes:author>
 <itunes:subtitle>The Weekend Update July 14, 2017</itunes:subtitle>
-<itunes:summary><![CDATA[<greeting>First Episode!</greeting>]]> </itunes:summary>
-<itunes:image href="https://eco.bigelow.org/images/cover.jpg"/>
+<itunes:summary><![CDATA[<greeting>We discuss deer tick encounter risk in the Northeast. We are waiting for user reports of Jelly Fish to generate better forecasts.</greeting>]]> </itunes:summary>
+<itunes:image href="https://eco.bigelow.org/images/album.jpg"/>
 <enclosure length="1668219" type="audio/mpeg" url="https://eco.bigelow.org/audio/Ecocast2017.07.14.mp3"/>
 <guid>https://eco.bigelow.org/audio/Ecocast2017.07.14.mp3</guid>
-<pubDate>Thu, 10 Mar 2016 02:00:00 -0700</pubDate>
+<pubDate>Fri, 14 Jul 2017 02:00:00 -0700</pubDate>
 <itunes:duration>01:23</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+</item>
+<title>Episode 5</title>
+<itunes:author>Ecocast Team</itunes:author>
+<itunes:subtitle>The Weekend Update July 07, 2017</itunes:subtitle>
+<itunes:summary><![CDATA[<greeting>Our tick forecast is down this week, so we will take a look at the Jelly Fish forecast. Remember to enter Jelly Fish sitings at https://jellyfish.bigelow.org/jellyfish/</greeting>]]> </itunes:summary>
+<itunes:image href="https://eco.bigelow.org/images/album.jpg"/>
+<enclosure length="3257729" type="video/mpeg" url="http://eco.bigelow.org/audio/Ecocast2017.07.07.m4a"/>
+<guid>http://eco.bigelow.org/audio/Ecocast2017.07.07.m4a</guid>
+<pubDate>Fri, 07 Jul 2017 02:00:00 -0700</pubDate>
+<itunes:duration>01:10</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+</item>
+<title>Episode 4</title>
+<itunes:author>Ecocast Team</itunes:author>
+<itunes:subtitle>The Weekend Update June 30, 2017</itunes:subtitle>
+<itunes:summary><![CDATA[<greeting>We discuss the encounter risk for three different species of Jelly Fish </greeting>]]> </itunes:summary>
+<itunes:image href="https://eco.bigelow.org/images/album.jpg"/>
+<enclosure length="2207417" type="video/mpeg" url="http://eco.bigelow.org/audio/Ecocast2017.06.30.m4a"/>
+<guid>http://eco.bigelow.org/audio/Ecocast2017.06.30.m4a</guid>
+<pubDate>Fri, 30 Jun 2017 02:00:00 -0700</pubDate>
+<itunes:duration>01:03</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+</item>
+<title>Episode 3</title>
+<itunes:author>Ecocast Team</itunes:author>
+<itunes:subtitle>The Weekend Update June 23, 2017</itunes:subtitle>
+<itunes:summary><![CDATA[<greeting>We discuss a Jelly Fish bloom in Casco Bay. </greeting>]]> </itunes:summary>
+<itunes:image href="https://eco.bigelow.org/images/album.jpg"/>
+<enclosure length="3083048" type="video/mpeg" url="http://eco.bigelow.org/audio/Ecocast2017.06.23.m4a"/>
+<guid>http://eco.bigelow.org/audio/Ecocast2017.06.23.m4a</guid>
+<pubDate>Fri, 23 Jun 2017 02:00:00 -0700</pubDate>
+<itunes:duration>01:10</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+</item>
+<title>Episode 2</title>
+<itunes:author>Ecocast Team</itunes:author>
+<itunes:subtitle>The Weekend Update June 09, 2017</itunes:subtitle>
+<itunes:summary><![CDATA[<greeting>We discuss the deer tick forecast for the Northeast. Remember to record tick sitings at https://report.bigelow.org/tick/ .</greeting>]]> </itunes:summary>
+<itunes:image href="https://eco.bigelow.org/images/album.jpg"/>
+<enclosure length="3051506" type="video/mpeg" url="http://eco.bigelow.org/audio/Ecocast2017.06.09.m4a"/>
+<guid>http://eco.bigelow.org/audio/Ecocast2017.06.09.m4a</guid>
+<pubDate>Fri, 09 Jun 2017 02:00:00 -0700</pubDate>
+<itunes:duration>01:24</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+</item>
+<title>Episode 1</title>
+<itunes:author>Ecocast Team</itunes:author>
+<itunes:subtitle>The Weekend Update June 02, 2017</itunes:subtitle>
+<itunes:summary><![CDATA[<greeting>We discuss deer tick encounter risk in the Northeast. Remember to record tick sitings at https://report.bigelow.org/tick/ .</greeting>]]> </itunes:summary>
+<itunes:image href="https://eco.bigelow.org/images/album.jpg"/>
+<enclosure length="3257729" type="video/mpeg" url="http://eco.bigelow.org/audio/Ecocast2017.06.02.m4a"/>
+<guid>http://eco.bigelow.org/audio/Ecocast2017.06.02.m4a</guid>
+<pubDate>Fri, 02 Jun 2017 02:00:00 -0700</pubDate>
+<itunes:duration>01:13</itunes:duration>
 <itunes:explicit>no</itunes:explicit>
 </item>
 </channel>
