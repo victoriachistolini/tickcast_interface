@@ -28,21 +28,49 @@
       .panel-heading
         h3.panel-title Forecast Control Panel
       .panel-body
-        .row
-          .col-md-7
-            p Play Forecast:
+         #forecast
+          .row
+            .col-md-7
+              p Play Forecast:
+              br
+              .slider
+                input(type='range', name='points', min='0', max='5',value='0')#slider 
+              br
+            .col-md-5
+              p Date:
+              br
+              p#date 07-09-2017
+          p Liklihood of Tick Encounter:
+          #colorstrip
+          .pull-right High
+          div Low
+         #deerTick
+          br
+          p Deer Tick Key:
+          br
+          .row
+           .col-md-5
+            #greenIcon
             br
-            .slider
-              input(type='range', name='points', min='0', max='5',value='0')#slider 
+            #pinkIcon
+           .col-md-7
+            div Male Deer Tick
             br
-          .col-md-5
-            p Date:
+            div Female Deer Tick
+         #dogTick
+          br
+          p Dog Tick Key:
+          br
+          .row
+           .col-md-5
+            #blueIcon
             br
-            p#date 07-09-2017
-        p Liklihood of Tick Encounter:
-        #colorstrip
-        .pull-right High
-        div Low
+            #purpleIcon
+           .col-md-7
+            div Male Dog Tick
+            br
+            div Female Dog Tick
+            
                 
     br
     br  
@@ -74,7 +102,7 @@ style.
   }
   
   #map {
-    height: 80vh;
+    height: 120vh;
     width: 100%;
   }
   
@@ -86,6 +114,38 @@ style.
       background-image: -moz-linear-gradient(left, blue, green, yellow, red);
       background-image: -o-linear-gradient(left, blue, green, yellow, red);
       background-image: linear-gradient(left, blue, green, yellow, red);
+  }
+  
+  #blueIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#0000FF; 
+  }
+  
+  #greenIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#008000; 
+  } 
+  
+  #pinkIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#FE7569; 
+  } 
+  
+  #purpleIcon {
+  width: 60px;
+  height: 20px;
+  background-color:#9370DB; 
+  }
+  
+  #dogTick {
+    visibility: hidden;
+  }
+  
+  #deerTick {
+    visibility: hidden;
   }
     
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
@@ -171,7 +231,7 @@ script.
       this.div_ = div;
       // Add the element to the "overlayImage" pane.
       var panes = this.getPanes();
-      panes.overlayImage.appendChild(this.div_);
+      panes.overlayLayer.appendChild(this.div_);
     };
     
     
@@ -256,17 +316,14 @@ script.
   
   function toggleForcast(cb) {
     console.log("Clicked, new value = " + cb.checked);
+    var forecastDiv = document.getElementById('forecast');
     if (cb.checked){
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
-      document.getElementById("date").innerHTML = today;
-      document.getElementById("slider").disabled = false;
-      document.getElementById("slider").value = "0";
+      forecastDiv.style.visibility = 'visible';
       overlay.toggle();
             
     }
     else{
-      document.getElementById("date").innerHTML = "--";
-      document.getElementById("slider").disabled = true;
+      forecastDiv.style.visibility = 'hidden';
       overlay.toggle();
     }
     
@@ -347,15 +404,19 @@ script.
   }
   
   function showDeerTicks(cb) {
+    var deerTickDiv = document.getElementById('deerTick');
     if(cb.checked){
       for (var i = 0; i < deerTicks.length; i++) {
         deerTicks[i].setMap(map);
       }
+      deerTickDiv.style.visibility = 'visible';
     }
     else {
       for (var i = 0; i < deerTicks.length; i++) {
         deerTicks[i].setMap(null);
       }
+      
+      deerTickDiv.style.visibility = 'hidden';
     }
     
     
@@ -363,15 +424,18 @@ script.
   }
   
   function showDogTicks(cb) {
+    var dogTickDiv = document.getElementById('dogTick');
     if (cb.checked){
       for (var i = 0; i < dogTicks.length; i++) {
         dogTicks[i].setMap(map);
       }
+      dogTickDiv.style.visibility = 'visible';
     }
     else {
       for (var i = 0; i < dogTicks.length; i++) {
         dogTicks[i].setMap(null);
       }
+      dogTickDiv.style.visibility = 'hidden';
     }
   }
   

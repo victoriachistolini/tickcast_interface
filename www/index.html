@@ -1,10 +1,10 @@
-<!DOCTYPE html><html><head><title>Ecological Forecasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script><script src="/js/date.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forecasting</h1></div><div class="row"><div class="col-md-9"><ul class="nav nav-tabs"><li role="presentation" class="active"><a href="#">Tick Forecast</a></li><li role="presentation"><a href="/podcast.html">Tickcast Podcast</a></li><li role="presentation"><a href="https://report.bigelow.org/tick/" target="_blank">Report Ticks</a></li><li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Other Species <span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#">Jelly Fish</a></li><li role="separator" class="divider"></li><li><a href="#">Moose  </a></li></ul></li></ul><div id="map"></div><br><br></div><div class="col-md-3"><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Forecast Control Panel</h3></div><div class="panel-body"><div class="row"><div class="col-md-7"><p>Play Forecast:</p><br><div class="slider"><input type="range" name="points" min="0" max="5" value="0" id="slider"></div><br></div><div class="col-md-5"><p>Date:</p><br><p id="date">07-09-2017</p></div></div><p>Liklihood of Tick Encounter:</p><div id="colorstrip"></div><div class="pull-right">High</div><div>Low</div></div></div><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Map Layers</h3></div><div class="panel-body">         <input type="checkbox" name="layers" value="1" checked="checked" onclick="toggleForcast(this)" class="messageCheckbox"><label for="love"> Forcast </label><br><input type="checkbox" name="layers" value="2" onclick="showDeerTicks(this)" class="messageCheckbox"><label for="love"> Deer Tick Observations </label><br><input type="checkbox" name="layers" value="3" onclick="showDogTicks(this)" class="messageCheckbox"><label for="love"> Dog Tick Observations </label><br></div></div></div></div><style>body {
+<!DOCTYPE html><html><head><title>Ecological Forecasting</title><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/main.css"><script src="/js/jquery-1.11.3.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script><script src="/js/date.js" type="text/javascript"></script></head><body><div class="page-header"><h1>Ecological Forecasting</h1></div><div class="row"><div class="col-md-9"><ul class="nav nav-tabs"><li role="presentation" class="active"><a href="#">Tick Forecast</a></li><li role="presentation"><a href="/podcast.html">Tickcast Podcast</a></li><li role="presentation"><a href="https://report.bigelow.org/tick/" target="_blank">Report Ticks</a></li><li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Other Species <span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#">Jelly Fish</a></li><li role="separator" class="divider"></li><li><a href="#">Moose  </a></li></ul></li></ul><div id="map"></div><br><br></div><div class="col-md-3"><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Forecast Control Panel</h3></div><div class="panel-body"><div id="forecast"><div class="row"><div class="col-md-7"><p>Play Forecast:</p><br><div class="slider"><input type="range" name="points" min="0" max="5" value="0" id="slider"></div><br></div><div class="col-md-5"><p>Date:</p><br><p id="date">07-09-2017</p></div></div><p>Liklihood of Tick Encounter:</p><div id="colorstrip"></div><div class="pull-right">High</div><div>Low</div></div><div id="deerTick"><br><p>Deer Tick Key:</p><br><div class="row"><div class="col-md-5"><div id="greenIcon"></div><br><div id="pinkIcon"></div></div><div class="col-md-7"><div>Male Deer Tick</div><br><div>Female Deer Tick</div></div></div></div><div id="dogTick"><br><p>Dog Tick Key:</p><br><div class="row"><div class="col-md-5"><div id="blueIcon"></div><br><div id="purpleIcon"></div></div><div class="col-md-7"><div>Male Dog Tick</div><br><div>Female Dog Tick</div></div></div></div></div></div><br><br><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Map Layers</h3></div><div class="panel-body">         <input type="checkbox" name="layers" value="1" checked="checked" onclick="toggleForcast(this)" class="messageCheckbox"><label for="love"> Forcast </label><br><input type="checkbox" name="layers" value="2" onclick="showDeerTicks(this)" class="messageCheckbox"><label for="love"> Deer Tick Observations </label><br><input type="checkbox" name="layers" value="3" onclick="showDogTicks(this)" class="messageCheckbox"><label for="love"> Dog Tick Observations </label><br></div></div></div></div><style>body {
   margin-left: 50px;
   margin-right: 50px;
 }
 
 #map {
-  height: 80vh;
+  height: 120vh;
   width: 100%;
 }
 
@@ -16,6 +16,38 @@
     background-image: -moz-linear-gradient(left, blue, green, yellow, red);
     background-image: -o-linear-gradient(left, blue, green, yellow, red);
     background-image: linear-gradient(left, blue, green, yellow, red);
+}
+
+#blueIcon {
+width: 60px;
+height: 20px;
+background-color:#0000FF; 
+}
+
+#greenIcon {
+width: 60px;
+height: 20px;
+background-color:#008000; 
+} 
+
+#pinkIcon {
+width: 60px;
+height: 20px;
+background-color:#FE7569; 
+} 
+
+#purpleIcon {
+width: 60px;
+height: 20px;
+background-color:#9370DB; 
+}
+
+#dogTick {
+  visibility: hidden;
+}
+
+#deerTick {
+  visibility: hidden;
 }
   </style><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs"></script><script>var threedaysago = (3).days().ago().toString("MM-dd-yyyy");
 var twodaysago = (2).days().ago().toString("MM-dd-yyyy");
@@ -97,7 +129,7 @@ function initMap() {
     this.div_ = div;
     // Add the element to the "overlayImage" pane.
     var panes = this.getPanes();
-    panes.overlayImage.appendChild(this.div_);
+    panes.overlayLayer.appendChild(this.div_);
   };
   
   
@@ -182,17 +214,14 @@ $('#slider').mousemove(function() {
 
 function toggleForcast(cb) {
   console.log("Clicked, new value = " + cb.checked);
+  var forecastDiv = document.getElementById('forecast');
   if (cb.checked){
-    overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
-    document.getElementById("date").innerHTML = today;
-    document.getElementById("slider").disabled = false;
-    document.getElementById("slider").value = "0";
+    forecastDiv.style.visibility = 'visible';
     overlay.toggle();
           
   }
   else{
-    document.getElementById("date").innerHTML = "--";
-    document.getElementById("slider").disabled = true;
+    forecastDiv.style.visibility = 'hidden';
     overlay.toggle();
   }
   
@@ -273,15 +302,19 @@ function hideAllMarkers() {
 }
 
 function showDeerTicks(cb) {
+  var deerTickDiv = document.getElementById('deerTick');
   if(cb.checked){
     for (var i = 0; i < deerTicks.length; i++) {
       deerTicks[i].setMap(map);
     }
+    deerTickDiv.style.visibility = 'visible';
   }
   else {
     for (var i = 0; i < deerTicks.length; i++) {
       deerTicks[i].setMap(null);
     }
+    
+    deerTickDiv.style.visibility = 'hidden';
   }
   
   
@@ -289,15 +322,18 @@ function showDeerTicks(cb) {
 }
 
 function showDogTicks(cb) {
+  var dogTickDiv = document.getElementById('dogTick');
   if (cb.checked){
     for (var i = 0; i < dogTicks.length; i++) {
       dogTicks[i].setMap(map);
     }
+    dogTickDiv.style.visibility = 'visible';
   }
   else {
     for (var i = 0; i < dogTicks.length; i++) {
       dogTicks[i].setMap(null);
     }
+    dogTickDiv.style.visibility = 'hidden';
   }
 }
 
