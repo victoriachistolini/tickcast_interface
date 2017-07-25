@@ -23,11 +23,26 @@
     
   .col-md-3
     br
-    br        
+    br 
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Map Layers
+      .panel-body          
+        input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')#cast
+        label(for='love')  Forcast 
+        br
+        input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
+        label(for='love')  Deer Tick Observations 
+        br
+        input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')#dog
+        label(for='love')  Dog Tick Observations 
+        br   
+    br
+    br          
     .panel.panel-default
       .panel-heading
         h3.panel-title Forecast Control Panel
-      .panel-body
+      .panel-body#body
          #forecast
           .row
             .col-md-7
@@ -70,23 +85,8 @@
             div Male Dog Tick
             br
             div Female Dog Tick
-            
-                
-    br
-    br  
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title Map Layers
-      .panel-body          
-        input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')
-        label(for='love')  Forcast 
-        br
-        input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')
-        label(for='love')  Deer Tick Observations 
-        br
-        input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')
-        label(for='love')  Dog Tick Observations 
-        br
+           
+
 
         
         
@@ -139,14 +139,6 @@ style.
   height: 20px;
   background-color:#9370DB; 
   }
-  
-  #dogTick {
-    visibility: hidden;
-  }
-  
-  #deerTick {
-    visibility: hidden;
-  }
     
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
 script.
@@ -158,6 +150,10 @@ script.
   var tomorrow = new Date.today().addDays(1).toString("MM-dd-yyyy");
   var twodaysfromnow = new Date.today().addDays(2).toString("MM-dd-yyyy");
   var threedaysfromnow = new Date.today().addDays(3).toString("MM-dd-yyyy");
+  $('#deerTick').hide();
+  $('#dogTick').hide();
+
+  
   
 
   // animate forcast
@@ -315,18 +311,14 @@ script.
   
   
   function toggleForcast(cb) {
-    console.log("Clicked, new value = " + cb.checked);
-    var forecastDiv = document.getElementById('forecast');
     if (cb.checked){
-      forecastDiv.style.visibility = 'visible';
       overlay.toggle();
             
     }
     else{
-      forecastDiv.style.visibility = 'hidden';
       overlay.toggle();
     }
-    
+    formatControlPanel();
   }
 
   function createNewIcon(color){
@@ -404,40 +396,61 @@ script.
   }
   
   function showDeerTicks(cb) {
-    var deerTickDiv = document.getElementById('deerTick');
     if(cb.checked){
       for (var i = 0; i < deerTicks.length; i++) {
         deerTicks[i].setMap(map);
       }
-      deerTickDiv.style.visibility = 'visible';
     }
     else {
       for (var i = 0; i < deerTicks.length; i++) {
         deerTicks[i].setMap(null);
       }
       
-      deerTickDiv.style.visibility = 'hidden';
     }
     
-    
+    formatControlPanel();
     
   }
   
   function showDogTicks(cb) {
-    var dogTickDiv = document.getElementById('dogTick');
     if (cb.checked){
       for (var i = 0; i < dogTicks.length; i++) {
         dogTicks[i].setMap(map);
       }
-      dogTickDiv.style.visibility = 'visible';
     }
     else {
       for (var i = 0; i < dogTicks.length; i++) {
         dogTicks[i].setMap(null);
       }
-      dogTickDiv.style.visibility = 'hidden';
     }
+    formatControlPanel();
   }
   
-  
+  function formatControlPanel(){
+    
+    var castBox = document.getElementById('cast');
+    var dogBox = document.getElementById('dog');
+    var deerBox = document.getElementById('deer');
+    
+    if(castBox.checked){
+      $('#forecast').show();
+      }
+    else{
+      $('#forecast').hide();
+      }
+    if(dogBox.checked){
+     $('#dogTick').show();
+    }
+    else{
+      $('#dogTick').hide();
+    }
+    
+    if(deerBox.checked){
+      $('#deerTick').show(); 
+    }
+    else {
+      $('#deerTick').hide();
+    }
+    
+  }
   google.maps.event.addDomListener(window, 'load', initMap);
