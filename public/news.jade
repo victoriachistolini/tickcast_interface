@@ -1,36 +1,53 @@
-.row
-  .col-md-9
-    ul.nav.nav-tabs
-      li(role='presentation')
-        a(href='/index.html') Home
+ul.nav.nav-tabs
+  li(role='presentation')
+    a(href='/index.html') Home
       
-      li.dropdown
-        a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-          | Report 
-          span.caret
-        ul.dropdown-menu
-          li
-            a(href='https://report.bigelow.org/tick/', target='_blank') Ticks
-          li.divider(role='separator')
-          li
-            a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish
+  li.dropdown
+    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+      | Report 
+      span.caret
+    ul.dropdown-menu
+      li
+          a(href='https://report.bigelow.org/tick/', target='_blank') Ticks
+      li.divider(role='separator')
+      li
+        a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish
         
-        li(role='presentation')
-            a(href='/podcast.html') Weekly Podcast
+    li(role='presentation')
+        a(href='/podcast.html') Weekly Podcast
       
-        li.dropdown
-          a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-            | Other Species 
-            span.caret
-          ul.dropdown-menu
-            li
-              a(href='/jelly.html') Jelly Fish
-            li.divider(role='separator')
-            li
-              a(href='#') Moose 
-            
-        li.active(role='presentation')
-            a(href='#') News
+    li.dropdown
+      a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+        | Other Species 
+        span.caret
+      ul.dropdown-menu
+        li
+          a(href='/jelly.html') Jelly Fish
+        li.divider(role='separator')
+        li
+          a(href='#') Moose 
+                    
+    li.active(role='presentation')
+        a(href='#') News
+br
+.jumbotron
+  .container
+    h1 Welcome to Ecocast News.
+    p Here we post current events articles related to ecocast topics, as well as our own news articles.
+      
+    
+br
+br
+br
+.row
+  .col-sm-6.col-md-4
+    .thumbnail
+      img(src='/images/news/article1.png')
+      .caption
+        h3 It’s High Time for Ticks, Which Are Spreading Diseases Farther
+        p  Tick populations are growing both in numbers and variety — at a time when ticks are emerging as a significant public health danger.
+        
+        a.btn.btn-primary(href='https://www.nytimes.com/2017/07/24/health/ticks-disease-united-states.html?_r=0', target='_blank', role='button') View     
 
 style.
   
