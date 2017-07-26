@@ -45,7 +45,10 @@
         
         
     br
-    br      
+    br 
+    
+        
+             
     
   .col-md-4
     br
@@ -54,49 +57,132 @@
       .panel-heading
         h3.panel-title Episodes
       .panel-body.tab-pane
-        br
-        small The Weekend Update July 14, 2017
-        br
-        br
-        audio(controls='')
-          source(src='/audio/Ecocast2017.07.14.mp3', type='audio/mpeg')
-        br
-        br
-        small The Weekend Update July 7, 2017
-        br
-        br
-        audio(controls='')
-          source(src='/audio/Ecocast2017.07.07.m4a', type='audio/mp4')
-        br
-        br
-        small The Weekend Update June 30, 2017
-        br
-        br
-        audio(controls='')
-          source(src='/audio/Ecocast2017.06.30.m4a', type='audio/mp4')
-        br
-        br
-        small The Weekend Update June 23, 2017
-        br
-        br
-        audio(controls='')
-          source(src='/audio/Ecocast2017.06.23.m4a', type='audio/mp4')
-        br
-        br
-        small The Weekend Update June 9, 2017
-        br
-        br
-        audio(controls='')
-          source(src='/audio/Ecocast2017.06.09.m4a', type='audio/mp4')
-        br
-        br
-        small The Weekend Update June 2, 2017
-        br
-        br
-        audio(controls='')
-          source(src='/audio/Ecocast2017.06.02.m4a', type='audio/mp4')
-        br
-        br
+        .list-group
+          a.list-group-item.active(href='#ep1')
+            h4.list-group-item-heading The Weekend Update July 14, 2017
+            p.list-group-item-text We discuss deer tick encounter risk ...
+          br
+          a.list-group-item.active(href='#ep2')
+            h4.list-group-item-heading The Weekend Update July 7, 2017
+            p.list-group-item-text Our tick forecast is down this week, so we will take a look at the Jelly Fish forecast...
+          br
+          a.list-group-item.active(href='#ep3')
+            h4.list-group-item-heading The Weekend Update June 30, 2017
+            p.list-group-item-text We discuss deer tick encounter risk ...
+          br
+          a.list-group-item.active(href='#ep4')
+            h4.list-group-item-heading The Weekend Update June 23, 2017
+            p.list-group-item-text We discuss deer tick encounter risk ... 
+          br
+          a.list-group-item.active(href='#ep5')
+            h4.list-group-item-heading The Weekend Update June 09, 2017
+            p.list-group-item-text We discuss deer tick encounter risk ... 
+          br
+          a.list-group-item.active(href='#ep6')
+            h4.list-group-item-heading The Weekend Update June 02, 2017
+            p.list-group-item-text We discuss deer tick encounter risk ... 
+            
+
+.row 
+ .col-md-9.col-md-offset-1
+    .panel.panel-default#ep1
+        .panel-heading
+            h3.panel-title The Weekend Update July 14, 2017
+        .panel-body
+          .row
+            .col-md-7
+                h5 About:
+                We discuss deer tick encounter risk in the Northeast. We are waiting for user reports of Jellyfish to generate better forecasts. Remember to report Jellyfish to help us get a better forecast.
+            .col-md-5
+              br
+              br
+              audio(controls='')
+                source(src='/audio/Ecocast2017.07.14.mp3', type='audio/mpeg')
+          br
+          img(src='/images/podcast/2017-07-14.png',style='width:830px;height:300px;')
+          br
+                
+    .panel.panel-default#ep2
+        .panel-heading
+            h3.panel-title The Weekend Update July 07, 2017
+        .panel-body
+          .row
+            .col-md-7
+                h5 About:
+                Our tick forecast is down this week, so we will take a look at the Jelly Fish forecast. Remember to enter Jellyfish sitings.
+            .col-md-5
+              br
+              br
+              audio(controls='')
+                source(src='/audio/Ecocast2017.07.07.m4a', type='audio/mp4')
+          br
+          img(src='/images/podcast/Whitecross2017-07-05-v2.002-forecast.png')
+                 
+    .panel.panel-default#ep3
+        .panel-heading
+            h3.panel-title The Weekend Update June 30, 2017
+        .panel-body
+          .row
+            .col-md-7
+                h5 About:
+                We discuss the encounter risk for three different species of Jellyfish
+            .col-md-5
+              br
+              br
+              audio(controls='')
+                source(src='/audio/Ecocast2017.06.30.m4a', type='audio/mp4')
+          br
+          img(src='/images/podcast/Jellies2017.06.30.jpg', style='width:830px;height:300px;')
+                
+    .panel.panel-default#ep4
+        .panel-heading
+            h3.panel-title The Weekend Update June 23, 2017
+        .panel-body
+          .row
+            .col-md-7
+                h5 About:
+                We discuss the encounter risk for three different species of Jellyfish, as well as a Jellyfish bloom in Casco Bay.
+            .col-md-5
+              br
+              br
+              audio(controls='')
+                source(src='/audio/Ecocast2017.06.23.m4a', type='audio/mp4')
+          br
+          img(src='/images/podcast/Jellies2017.06.23.gif')
+                
+    .panel.panel-default#ep5
+        .panel-heading
+            h3.panel-title The Weekend Update June 09, 2017
+        .panel-body
+          .row
+            .col-md-7
+                h5 About:
+                We discuss the deer tick forecast for the Northeast. Remember to record tick sitings.
+            .col-md-5
+              br
+              br
+              audio(controls='')
+                source(src='/audio/Ecocast2017.06.09.m4a', type='audio/mp4')
+          br
+          img(src='/images/podcast/2017-06-09.png',style='width:830px;height:300px;')
+                
+    .panel.panel-default#ep6
+        .panel-heading
+            h3.panel-title The Weekend Update June 02, 2017
+        .panel-body
+          .row
+            .col-md-7
+                h5 About:
+                We discuss the deer tick forecast for the Northeast. Remember to record tick sitings.
+            .col-md-5
+              br
+              br
+              audio(controls='')
+                source(src='/audio/Ecocast2017.06.02.m4a', type='audio/mp4')
+          br
+          img(src='/images/podcast/2017-06-02.png',style='width:830px;height:300px;')
+
+            
         
 
 style.
