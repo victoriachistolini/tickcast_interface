@@ -2,7 +2,8 @@
   .col-md-9
     ul.nav.nav-tabs
       li.active(role='presentation')
-        a(href='#') Deer Tick Forecast
+        a(href='#') Jelly Fish Forecast
+      
       
       li.dropdown
         a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
@@ -13,10 +14,10 @@
             a(href='https://report.bigelow.org/tick/', target='_blank') Ticks
           li.divider(role='separator')
           li
-            a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish
-        
-        li(role='presentation')
-            a(href='/podcast.html') Weekly Podcast
+            a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish  
+      
+      li(role='presentation')
+        a(href='/podcast.html') Weekly Podcast
       
         li.dropdown
           a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
@@ -24,7 +25,7 @@
             span.caret
           ul.dropdown-menu
             li
-              a(href='/jelly.html') Jelly Fish
+              a(href='/index.html') Deer Tick Forecast
             li.divider(role='separator')
             li
               a(href='#') Moose  
@@ -42,11 +43,8 @@
         input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')#cast
         label(for='love')  Forcast 
         br
-        input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
-        label(for='love')  Deer Tick Observations 
-        br
-        input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')#dog
-        label(for='love')  Dog Tick Observations 
+        input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#jelly
+        label(for='love')  Jelly Fish Observations 
         br   
     br
     br          
@@ -83,28 +81,6 @@
             div Male Deer Tick
             br
             div Female Deer Tick
-         #dogTick
-          br
-          p Dog Tick Key:
-          br
-          .row
-           .col-md-5
-            #blueIcon
-            br
-            #purpleIcon
-           .col-md-7
-            div Male Dog Tick
-            br
-            div Female Dog Tick
-           
-
-
-        
-        
- 
-      
-
-
 style.
   
   body {
@@ -162,11 +138,8 @@ script.
   var twodaysfromnow = new Date.today().addDays(2).toString("MM-dd-yyyy");
   var threedaysfromnow = new Date.today().addDays(3).toString("MM-dd-yyyy");
   $('#deerTick').hide();
-  $('#dogTick').hide();
 
   
-  
-
   // animate forcast
   var overlay;
   var map;
@@ -400,9 +373,6 @@ script.
     for (var i = 0; i < deerTicks.length; i++) {
       deerTicks[i].setMap(null);
     }
-    for (var i = 0; i < dogTicks.length; i++) {
-      dogTicks[i].setMap(null);
-    }
     
   }
   
@@ -423,24 +393,10 @@ script.
     
   }
   
-  function showDogTicks(cb) {
-    if (cb.checked){
-      for (var i = 0; i < dogTicks.length; i++) {
-        dogTicks[i].setMap(map);
-      }
-    }
-    else {
-      for (var i = 0; i < dogTicks.length; i++) {
-        dogTicks[i].setMap(null);
-      }
-    }
-    formatControlPanel();
-  }
   
   function formatControlPanel(){
     
     var castBox = document.getElementById('cast');
-    var dogBox = document.getElementById('dog');
     var deerBox = document.getElementById('deer');
     
     if(castBox.checked){
@@ -449,12 +405,6 @@ script.
     else{
       $('#forecast').hide();
       }
-    if(dogBox.checked){
-     $('#dogTick').show();
-    }
-    else{
-      $('#dogTick').hide();
-    }
     
     if(deerBox.checked){
       $('#deerTick').show(); 

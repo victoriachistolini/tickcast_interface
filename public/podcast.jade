@@ -2,18 +2,28 @@
   .col-md-8
     ul.nav.nav-tabs
       li(role='presentation')
-        a(href='/index.html') Tickcast Forecast
+        a(href='/index.html') Deer Tick Forecast
+      
+      li.dropdown
+        a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+          | Report 
+          span.caret
+        ul.dropdown-menu
+          li
+            a(href='https://report.bigelow.org/tick/', target='_blank') Ticks
+          li.divider(role='separator')
+          li
+            a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish
+      
       li.active(role='presentation')
-        a(href='#') Tick Podcast
-      li(role='presentation')
-        a(href='https://report.bigelow.org/tick/', target='_blank') Report Ticks
+        a(href='#') Weekly Podcast
         li.dropdown
           a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
             | Other Species 
             span.caret
           ul.dropdown-menu
             li
-              a(href='#') Jelly Fish
+              a(href='/jelly.html') Jelly Fish
             li.divider(role='separator')
             li
               a(href='#') Moose
