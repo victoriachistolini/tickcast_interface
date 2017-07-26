@@ -27,7 +27,11 @@
               a(href='/jelly.html') Jelly Fish
             li.divider(role='separator')
             li
-              a(href='#') Moose  
+              a(href='#') Moose 
+            
+        li(role='presentation')
+            a(href='/news.html') News
+     
     #map
     br
     br      
@@ -60,7 +64,7 @@
               p Play Forecast:
               br
               .slider
-                input(type='range', name='points', min='0', max='5',value='0')#slider 
+                input(type='range', name='points', min='0', max='3',value='0')#slider 
               br
             .col-md-5
               p Date:
@@ -297,22 +301,22 @@ script.
   $('#slider').mousemove(function() {
     var theValue = $('#slider').val();
 
-    if (theValue == 1){
+    if (theValue == 0){
   
       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
       document.getElementById("date").innerHTML = today;
   
-    } else if (theValue ==2){
+    } else if (theValue ==1){
   
      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+tomorrow+".png"); 
      document.getElementById("date").innerHTML = tomorrow;
       
   
-    } else if(theValue == 3){
+    } else if(theValue == 2){
   
        overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+".png");
        document.getElementById("date").innerHTML = twodaysfromnow;       
-    } else if (theValue == 4){
+    } else if (theValue == 3){
   
        overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+".png");
        document.getElementById("date").innerHTML = threedaysfromnow;      

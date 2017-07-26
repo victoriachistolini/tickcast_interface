@@ -1,0 +1,40 @@
+.row
+  .col-md-9
+    ul.nav.nav-tabs
+      li(role='presentation')
+        a(href='#') Home
+      
+      li.dropdown
+        a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+          | Report 
+          span.caret
+        ul.dropdown-menu
+          li
+            a(href='https://report.bigelow.org/tick/', target='_blank') Ticks
+          li.divider(role='separator')
+          li
+            a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish
+        
+        li(role='presentation')
+            a(href='/podcast.html') Weekly Podcast
+      
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+            | Other Species 
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href='/jelly.html') Jelly Fish
+            li.divider(role='separator')
+            li
+              a(href='#') Moose 
+            
+        li.active(role='presentation')
+            a(href='#') News
+
+style.
+  
+  body {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
