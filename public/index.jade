@@ -44,11 +44,29 @@
         h3.panel-title Map Layers
       .panel-body          
         input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')#cast
-        label(for='love')  Forcast 
+        label(for='cast')  Forcast 
         br
+        br
+        h5 Forecast Colors
+        .row
+            .col-md-3
+              input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='setColor1(this);')#color1
+              p Default
+            .col-md-3
+              input.messageCheckbox(type='checkbox', name='layers', value='1',  onclick='setColor2(this);')#color2
+              p Yellow
+            .col-md-3
+              input.messageCheckbox(type='checkbox', name='layers', value='1',  onclick='setColor3(this);')#color3
+              p Basic
+            .col-md-3
+              input.messageCheckbox(type='checkbox', name='layers', value='1',  onclick='setColor4(this);')#color4
+              p Orange
+            
+        hr   
         input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
         label(for='love')  Deer Tick Observations 
         br
+        hr
         input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')#dog
         label(for='love')  Dog Tick Observations 
         br   
@@ -165,6 +183,11 @@ script.
   var tomorrow = new Date.today().addDays(1).toString("MM-dd-yyyy");
   var twodaysfromnow = new Date.today().addDays(2).toString("MM-dd-yyyy");
   var threedaysfromnow = new Date.today().addDays(3).toString("MM-dd-yyyy");
+  var todayPath = "https://static.bigelow.org/data/ecocast/tick/"+today+".png";
+  var tomorrowPath = "https://static.bigelow.org/data/ecocast/tick/"+tomorrow+".png";
+  var twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+".png";
+  var threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+".png";
+  
   $('#deerTick').hide();
   $('#dogTick').hide();
 
@@ -195,7 +218,7 @@ script.
       new google.maps.LatLng(40.9470950033508, -73.9987308620128),
       new google.maps.LatLng(48.1221341816001, -59.6983306401886));
       
-      var srcImage = "https://static.bigelow.org/data/ecocast/tick/"+today+".png";
+      var srcImage = todayPath;
       document.getElementById("date").innerHTML = today;
       overlay = new forcastOverlay(srcImage,bounds);
       
@@ -303,22 +326,22 @@ script.
 
     if (theValue == 0){
   
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+today+".png");
+      overlay.changeImage(todayPath);
       document.getElementById("date").innerHTML = today;
   
     } else if (theValue ==1){
   
-     overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+tomorrow+".png"); 
+     overlay.changeImage(tomorrowPath); 
      document.getElementById("date").innerHTML = tomorrow;
       
   
     } else if(theValue == 2){
   
-       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+".png");
+       overlay.changeImage(twodaysfromnowPath);
        document.getElementById("date").innerHTML = twodaysfromnow;       
     } else if (theValue == 3){
   
-       overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+".png");
+       overlay.changeImage(threedaysfromnowPath);
        document.getElementById("date").innerHTML = threedaysfromnow;      
     }
 
@@ -468,4 +491,72 @@ script.
     }
     
   }
+  
+  function controlColorMarkers(){
+    var c1 = document.getElementById('color1');
+    var c2 = document.getElementById('color2');
+    var c3 = document.getElementById('color3');
+    var c4 = document.getElementById('color4');
+    
+    c1.checked="";
+    c2.checked="";
+    c3.checked="";
+    c4.checked="";
+    
+  }
+  
+  function setColor1(cb){
+    controlColorMarkers();
+    var c1 = document.getElementById('color1');
+    c1.checked="checked";
+    
+  }
+  
+  
+  function setColor2(cb){
+    
+    
+    if(cb.checked){
+      controlColorMarkers();
+      var c2 = document.getElementById('color2');
+      c2.checked="checked";
+    }
+    else{
+      controlColorMarkers();
+      var c1 = document.getElementById('color1');
+      c1.checked="checked";
+    }
+    
+  }
+  
+  function setColor3(cb){
+    
+    if(cb.checked){
+      controlColorMarkers();
+      var c3 = document.getElementById('color3');
+      c3.checked="checked";
+    }
+    else{
+      controlColorMarkers();
+      var c1 = document.getElementById('color1');
+      c1.checked="checked";
+    }
+    
+  }
+  
+  function setColor4(cb){
+    
+    if(cb.checked){
+      controlColorMarkers();
+      var c4 = document.getElementById('color4');
+      c4.checked="checked";
+    }
+    else{
+      controlColorMarkers();
+      var c1 = document.getElementById('color1');
+      c1.checked="checked";
+    }
+    
+  }
+  
   google.maps.event.addDomListener(window, 'load', initMap);
