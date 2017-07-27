@@ -370,56 +370,92 @@ function controlColorMarkers(){
   
 }
 
+function changeGlobalPaths(extension){
+  todayPath = "https://static.bigelow.org/data/ecocast/tick/"+today+extension;
+  tomorrowPath = "https://static.bigelow.org/data/ecocast/tick/"+tomorrow+extension;
+  twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+extension;
+  threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+extension;
+}
+
+function changeGlobalPaths2(extension){
+  todayPath = "https://static.bigelow.org/data/ecocast/forecast/"+today+extension;
+  tomorrowPath = "https://static.bigelow.org/data/ecocast/forecast/"+tomorrow+extension;
+  twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/forecast/"+twodaysfromnow+extension;
+  threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/forecast/"+threedaysfromnow+extension;
+}
+
 function setColor1(cb){
+  var date = document.getElementById('date').innerHTML;
   controlColorMarkers();
   var c1 = document.getElementById('color1');
   c1.checked="checked";
+  
+  changeGlobalPaths(".png");
+  overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+".png");
   
 }
 
 
 function setColor2(cb){
   
+  var date = document.getElementById('date').innerHTML;
   
   if(cb.checked){
     controlColorMarkers();
     var c2 = document.getElementById('color2');
     c2.checked="checked";
+    
+    overlay.changeImage("https://static.bigelow.org/data/ecocast/forecast/"+date+"_2.png");
+    changeGlobalPaths2("_2.png");
   }
   else{
     controlColorMarkers();
     var c1 = document.getElementById('color1');
     c1.checked="checked";
+    overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+".png");
+    changeGlobalPaths(".png");
   }
   
 }
 
 function setColor3(cb){
-  
+  var date = document.getElementById('date').innerHTML;
   if(cb.checked){
     controlColorMarkers();
     var c3 = document.getElementById('color3');
     c3.checked="checked";
+    
+    overlay.changeImage("https://static.bigelow.org/data/ecocast/forecast/"+date+"_3.png");
+    changeGlobalPaths2("_3.png");
   }
   else{
     controlColorMarkers();
     var c1 = document.getElementById('color1');
     c1.checked="checked";
+    
+    overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+".png");
+    changeGlobalPaths(".png");
   }
   
 }
 
 function setColor4(cb){
-  
+  var date = document.getElementById('date').innerHTML;
   if(cb.checked){
     controlColorMarkers();
     var c4 = document.getElementById('color4');
     c4.checked="checked";
+    
+    overlay.changeImage("https://static.bigelow.org/data/ecocast/forecast/"+date+"_4.png");
+    changeGlobalPaths2("_4.png");
   }
   else{
     controlColorMarkers();
     var c1 = document.getElementById('color1');
     c1.checked="checked";
+    
+    overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+".png");
+    changeGlobalPaths(".png");
   }
   
 }
