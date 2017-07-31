@@ -69,7 +69,7 @@
               br
               p#date 07-09-2017
           p Likelihood of Tick Encounter:
-          img(src="/images/colorbars/rainbow.png", width="100%")#colorstrip
+          img(src="/images/colorbars/oranges.png", width="100%")#colorstrip
           .pull-right High
           div Low
           br
@@ -160,10 +160,10 @@ script.
   var tomorrow = new Date.today().addDays(1).toString("MM-dd-yyyy");
   var twodaysfromnow = new Date.today().addDays(2).toString("MM-dd-yyyy");
   var threedaysfromnow = new Date.today().addDays(3).toString("MM-dd-yyyy");
-  var todayPath = "https://static.bigelow.org/data/ecocast/tick/"+today+".png";
-  var tomorrowPath = "https://static.bigelow.org/data/ecocast/tick/"+tomorrow+".png";
-  var twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+".png";
-  var threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+".png";
+  var todayPath = "https://static.bigelow.org/data/ecocast/tick/"+today+"_4.png";
+  var tomorrowPath = "https://static.bigelow.org/data/ecocast/tick/"+tomorrow+"_4.png";
+  var twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+"_4.png";
+  var threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+"_4.png";
   
   $('#deerTick').hide();
   $('#dogTick').hide();
@@ -474,29 +474,19 @@ script.
     twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+extension;
     threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+extension;
   }
-  
-  function changeGlobalPaths2(extension){
-    todayPath = "https://static.bigelow.org/data/ecocast/forecast/"+today+extension;
-    tomorrowPath = "https://static.bigelow.org/data/ecocast/forecast/"+tomorrow+extension;
-    twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/forecast/"+twodaysfromnow+extension;
-    threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/forecast/"+threedaysfromnow+extension;
-  }
-  
-  
-  
-  
+    
   function changeColor(value){
     console.log(value);
     var date = document.getElementById('date').innerHTML;
     
     if(value==1){
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/forecast/"+date+"_4.png");
-      changeGlobalPaths2("_4.png");
+      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+"_4.png");
+      changeGlobalPaths("_4.png");
       $("#colorstrip").attr('src','/images/colorbars/oranges.png');
     }
     else if(value==2){
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/forecast/"+date+"_2.png");
-      changeGlobalPaths2("_2.png");
+      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+"_2.png");
+      changeGlobalPaths("_2.png");
       $("#colorstrip").attr('src','/images/colorbars/yellows.png'); 
     }
     else if(value==3){
