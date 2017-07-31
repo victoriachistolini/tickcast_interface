@@ -41,7 +41,7 @@
         h3.panel-title Map Layers
       .panel-body          
         input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')#cast
-        label(for='cast')  Forcast 
+        label(for='cast')  Forecast 
         hr
         input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
         label(for='love')  Deer Tick Observations 
@@ -73,7 +73,7 @@
           .pull-right High
           div Low
           br
-          p Change Forcast Color Scheme:
+          p Change Forecast Color Scheme:
           select(onchange='changeColor(this.value)')
             option(value='1') Default
             option(value='2') Yellows
