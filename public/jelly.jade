@@ -53,17 +53,13 @@
          #forecast
           .row
             .col-md-7
-              p Play Forecast:
-              br
-              .slider
-                input(type='range', name='points', min='0', max='3',value='0')#slider 
+              p Forecast Date:
               br
             .col-md-5
-              p Date:
-              br
               p#date 07-09-2017
+              br
           p Likelihood of Tick Encounter:
-          img(src="/images/colorbars/magma.png", width="100%")#colorstrip
+          img(src="/images/colorbars/yellows.png", width="100%")#colorstrip
           .pull-right High
           div Low
           br
@@ -76,7 +72,7 @@ style.
   }
   
   #map {
-    height: 120vh;
+    height: 90vh;
     width: 100%;
   }
   
@@ -141,10 +137,10 @@ script.
     });
     
     var bounds = new google.maps.LatLngBounds(
-      new google.maps.LatLng(40.9470950033508, -73.9987308620128),
-      new google.maps.LatLng(48.1221341816001, -59.6983306401886));
+      new google.maps.LatLng(40.9966452004322, -73.9950023977877),
+      new google.maps.LatLng(48.150451765812, -59.7450014418008));
       
-      var srcImage = todayPath;
+      var srcImage = "https://static.bigelow.org/data/ecocast/jellyfish/2017-07-31.png";
       document.getElementById("date").innerHTML = today;
       overlay = new forcastOverlay(srcImage,bounds);
       
