@@ -15,9 +15,11 @@
       .row
         .col-md-2
             a.btn.btn#play
-              span.glyphicon.glyphicon-play-circle(aria-hidden='true')
+              span.glyphicon.glyphicon-play(aria-hidden='true')
               |  Play
-              
+            a.btn.btn#stop
+              span.glyphicon.glyphicon-stop(aria-hidden='true')
+              |  Stop
                 
         .col-md-6
           .slider
@@ -131,8 +133,8 @@ style.
     
   #floating-panel {
     position: absolute;
-    top: 58px;
-    left: 77%;
+    top: 30px;
+    left: 680px;
     z-index: 5;
     background-color: #fff;
     padding: 5px;
@@ -204,6 +206,7 @@ script.
   
   $('#deerTick').hide();
   $('#dogTick').hide();
+  $("#stop").hide();
 
   
   
@@ -218,6 +221,10 @@ script.
   var male_deer = createNewIcon("008000");
   var female_deer = createNewIcon("FE7569");
   var female_dog = createNewIcon("9370DB");
+  var animate1=null;
+  var animate2=null;
+  var animate3=null;
+  var animate4=null;
   
   
   
@@ -537,35 +544,60 @@ script.
   }
   
   
-  $('#play').on('click', function (e) {
-    
+  function cycleThrough(){
     var slide = document.getElementById('slider');
 
-    
     slide.value = "0";
     overlay.changeImage(todayPath);
     document.getElementById("date").innerHTML = today;
-    
-    setTimeout(function(){
-      slide.value = "1";
-      overlay.changeImage(tomorrowPath);
-      document.getElementById("date").innerHTML = tomorrow;
-      }, 1000);
-    
-    
-    setTimeout(function(){
-      slide.value = "2";
-      overlay.changeImage(twodaysfromnowPath);
-      document.getElementById("date").innerHTML = twodaysfromnow;
+  
+   animate1 =setTimeout(function(){
+        slide.value = "1";
+        overlay.changeImage(tomorrowPath);
+        document.getElementById("date").innerHTML = tomorrow;
+    }, 1000);
+  
+  
+    animate2 = setTimeout(function(){
+        slide.value = "2";
+        overlay.changeImage(twodaysfromnowPath);
+        document.getElementById("date").innerHTML = twodaysfromnow;
       }, 2000);
-      
-    setTimeout(function(){
-      slide.value = "3";
-      overlay.changeImage(threedaysfromnowPath);
-      document.getElementById("date").innerHTML = threedaysfromnow;
-          }, 3000);
+    
+    
+   animate3 = setTimeout(function(){
+        slide.value = "3";
+        overlay.changeImage(threedaysfromnowPath);
+        document.getElementById("date").innerHTML = threedaysfromnow;  
+    }, 3000);
+  }
+    
+    
+  
+  $('#play').on('click', function (e) {
+    
+    $("#play").hide();
+    $("#stop").show();
+    animate4=setInterval(function(){ cycleThrough() }, 4000);
+    
+   
+
     
   })
+  
+  $('#stop').on('click', function (e) {
+    $("#play").show();
+    $("#stop").hide();
+    clearTimeout(animate1);
+    clearTimeout(animate2);
+    clearTimeout(animate3);
+    clearInterval(animate4);
+ 
+    
+    
+  })
+  
+  
   google.maps.event.addDomListener(window, 'load', initMap);
 
 
