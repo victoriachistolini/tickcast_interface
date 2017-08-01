@@ -2,4 +2,43 @@
   h1
     | Ecological Forecasting
     
+nav.navbar.navbar-default
+  .container-fluid
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    // Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li
+           a(href='/index.html') Home 
+            span.sr-only (current)
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+            | Report 
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href='https://report.bigelow.org/tick/', target='_blank') Ticks
+            li.divider(role='separator')
+            li
+              a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish
+        li
+           a(href='/podcast.html') Weekly Podcast 
+            span.sr-only (current)
+    
+      ul.nav.navbar-nav.navbar-right
+        li
+          a(href='/news.html') News
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+            | Other Species
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href='/jelly.html') Jellyfish 
 

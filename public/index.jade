@@ -1,109 +1,77 @@
 .row
   .col-md-9
-    ul.nav.nav-tabs
-      li.active(role='presentation')
-        a(href='#') Deer Tick Forecast
-      
-      li.dropdown
-        a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-          | Report 
-          span.caret
-        ul.dropdown-menu
-          li
-            a(href='https://report.bigelow.org/tick/', target='_blank') Ticks
-          li.divider(role='separator')
-          li
-            a(href='https://jellyfish.bigelow.org/jellyfish/', target='_blank') Jellyfish
-        
-        li(role='presentation')
-            a(href='/podcast.html') Weekly Podcast
-      
-        li.dropdown
-          a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-            | Other Species 
-            span.caret
-          ul.dropdown-menu
-            li
-              a(href='/jelly.html') Jellyfish 
-            
-        li(role='presentation')
-            a(href='/news.html') News
-     
+    #floating-panel 
+      input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')#cast
+      label(for='cast')  Forecast 
+      br      
+      input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
+      label(for='love')  Deer Tick Observations 
+      br
+      input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')#dog
+      label(for='love')  Dog Tick Observations 
+         
     #map
+    .icon-bar
+      .row
+        .col-md-2
+            a.btn.btn#play
+              span.glyphicon.glyphicon-play-circle(aria-hidden='true')
+              |  Play
+              
+                
+        .col-md-6
+          .slider
+            input(type='range', name='points', min='0', max='3',value='0')#slider 
+        .col-md-4
+          .floating-panel2
+            p#date 
     br
     br      
-    
+            
   .col-md-3
-    br
-    br 
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title Map Layers
-      .panel-body          
-        input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')#cast
-        label(for='cast')  Forecast 
-        hr
-        input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
-        label(for='love')  Deer Tick Observations 
-        hr
-        
-        input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')#dog
-        label(for='love')  Dog Tick Observations 
-        br   
-    br
-    br          
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title Forecast Control Panel
-      .panel-body#body
-         #forecast
-          .row
-            .col-md-7
-              p Play Forecast:
+      br
+      br 
+      .panel.panel-default
+        .panel-heading
+          h3.panel-title Forecast Control Panel
+        .panel-body#body
+           #forecast
+            p Likelihood of Tick Encounter:
+            img(src="/images/colorbars/oranges.png", width="100%")#colorstrip
+            .pull-right High
+            div Low
+            br
+            p Change Forecast Color Scheme:
+            select(onchange='changeColor(this.value)')
+              option(value='1') Default
+              option(value='2') Yellows
+              option(value='3') Rainbow
+           #deerTick
+            br
+            p Deer Tick Key:
+            br
+            .row
+             .col-md-5
+              #greenIcon
               br
-              .slider
-                input(type='range', name='points', min='0', max='3',value='0')#slider 
+              #pinkIcon
+             .col-md-7
+              div Male Deer Tick
               br
-            .col-md-5
-              p Date:
+              div Female Deer Tick
+           #dogTick
+            br
+            p Dog Tick Key:
+            br
+            .row
+             .col-md-5
+              #blueIcon
               br
-              p#date 07-09-2017
-          p Likelihood of Tick Encounter:
-          img(src="/images/colorbars/oranges.png", width="100%")#colorstrip
-          .pull-right High
-          div Low
-          br
-          p Change Forecast Color Scheme:
-          select(onchange='changeColor(this.value)')
-            option(value='1') Default
-            option(value='2') Yellows
-            option(value='3') Rainbow
-         #deerTick
-          br
-          p Deer Tick Key:
-          br
-          .row
-           .col-md-5
-            #greenIcon
-            br
-            #pinkIcon
-           .col-md-7
-            div Male Deer Tick
-            br
-            div Female Deer Tick
-         #dogTick
-          br
-          p Dog Tick Key:
-          br
-          .row
-           .col-md-5
-            #blueIcon
-            br
-            #purpleIcon
-           .col-md-7
-            div Male Dog Tick
-            br
-            div Female Dog Tick
+              #purpleIcon
+             .col-md-7
+              div Male Dog Tick
+              br
+              div Female Dog Tick
            
 
 style.
@@ -114,11 +82,22 @@ style.
   }
   
   #map {
-    height: 120vh;
+    height: 90vh;
     width: 100%;
   }
   
-
+  .slider {
+    top: 60 px;
+    width:100%
+  }
+  #slider{
+    margin-top:10px;
+  }
+  .icon-bar {
+      width: 100%; /* Set a specific width */
+      background-color: #555; /* Dark-grey background */
+      height: 30px;
+  }
   
   .basic-box{
     width: 30px;
@@ -149,6 +128,64 @@ style.
   height: 20px;
   background-color:#9370DB; 
   }
+    
+  #floating-panel {
+    position: absolute;
+    top: 58px;
+    left: 77%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: left;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    opacity:0.8;
+  } 
+    
+  .floating-panel2 {
+    position: absolute;
+    left: 50%;
+    z-index: 5;
+    // background-color: #979A9A;
+    // padding: 5px;
+    // border: 1px solid #999;
+    text-align: left;
+    font-family: 'Roboto','sans-serif';
+    // line-height: 30px;
+    padding-left: 10px;
+    // opacity:0.8;
+    color:white;
+    margin-top:5px;
+  }     
+  
+  #floating-panel2a {
+    
+    background-color: #fff;
+    border: 1px solid #999;
+    
+  } 
+  
+  a:link {
+      color: white;
+  }
+
+  /* visited link */
+  a:visited {
+      color: white;
+  }
+
+  /* mouse over link */
+  a:hover {
+      color: white;
+  }
+
+  /* selected link */
+  a:active {
+      color: white;
+  } 
+  
     
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
 script.
@@ -326,10 +363,12 @@ script.
   function toggleForcast(cb) {
     if (cb.checked){
       overlay.toggle();
+      $('.icon-bar').show();
             
     }
     else{
       overlay.toggle();
+      $('.icon-bar').hide();
     }
     formatControlPanel();
   }
@@ -498,6 +537,35 @@ script.
   }
   
   
+  $('#play').on('click', function (e) {
+    
+    var slide = document.getElementById('slider');
+
+    
+    slide.value = "0";
+    overlay.changeImage(todayPath);
+    document.getElementById("date").innerHTML = today;
+    
+    setTimeout(function(){
+      slide.value = "1";
+      overlay.changeImage(tomorrowPath);
+      document.getElementById("date").innerHTML = tomorrow;
+      }, 1000);
+    
+    
+    setTimeout(function(){
+      slide.value = "2";
+      overlay.changeImage(twodaysfromnowPath);
+      document.getElementById("date").innerHTML = twodaysfromnow;
+      }, 2000);
+      
+    setTimeout(function(){
+      slide.value = "3";
+      overlay.changeImage(threedaysfromnowPath);
+      document.getElementById("date").innerHTML = threedaysfromnow;
+          }, 3000);
+    
+  })
   google.maps.event.addDomListener(window, 'load', initMap);
 
 
