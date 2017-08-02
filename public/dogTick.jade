@@ -1,37 +1,10 @@
 .row
   .col-md-9
     #floating-panel
-      input.messageCheckbox(type='checkbox', name='layers', value='1', checked, onclick='toggleForcast(this);')#cast
-      label(for='cast')  Forecast 
-      br      
-      input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
-      label(for='love')  Deer Tick Observations 
-      br
       input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')#dog
       label(for='love')  Dog Tick Observations 
          
     #map
-    .icon-bar
-      .row
-        .col-xs-6.col-md-2
-          a.btn.btn#play
-            span.glyphicon.glyphicon-play(aria-hidden='true')
-            |  Play
-          a.btn.btn#stop
-            span.glyphicon.glyphicon-stop(aria-hidden='true')
-            |  Stop    
-        
-        .col-xs-6.col-md-2.col-md-push-8
-          p#date.pull-right  
-        //.hidden-md
-        //  br
-          //br
-        .col-md-8.col-md-pull-2
-          input(type='range', name='points', min='0', max='3',value='0')#slider 
-         
-        
-
-  
     br
     br      
             
@@ -42,30 +15,6 @@
         .panel-heading
           h3.panel-title Forecast Control Panel
         .panel-body#body
-           #forecast
-            p Likelihood of Tick Encounter:
-            img(src="/images/colorbars/oranges.png", width="100%")#colorstrip
-            .pull-right High
-            div Low
-            br
-            p Change Forecast Color Scheme:
-            select(onchange='changeColor(this.value)')
-              option(value='1') Default
-              option(value='2') Yellows
-              option(value='3') Rainbow
-           #deerTick
-            br
-            p Deer Tick Key:
-            br
-            .row
-             .col-md-5
-              #greenIcon
-              br
-              #pinkIcon
-             .col-md-7
-              div Male Deer Tick
-              br
-              div Female Deer Tick
            #dogTick
             br
             p Dog Tick Key:
@@ -135,18 +84,7 @@ style.
   height: 20px;
   background-color:#9370DB; 
   }
-    
-  // #floating-panel {
-  //   //position: absolute;
-  //   opacity:0.8;
-  //   background-color: #fff;
-  //   border: 1px solid #999;
-  //   text-align: left;
-  //   font-family: 'Roboto','sans-serif';
-  //   line-height: 30px;
-  //   padding-left: 70%;
-  //
-  // }
+
   
   #floating-panel {
     position: absolute;
@@ -170,14 +108,6 @@ style.
     margin-top:5px;
   }     
   
-  #floating-panel2a {
-    
-    background-color: #fff;
-    border: 1px solid #999;
-    
-  } 
-   
-  
     
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBQgilx3e3-f0pgRfx-GCnNgzWllJlMhSs')
 script.
@@ -194,9 +124,6 @@ script.
   var twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+"_4.png";
   var threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+"_4.png";
   
-  $('#deerTick').hide();
-  $('#dogTick').hide();
-  $("#stop").hide();
 
   manageLayerspanel();
   
@@ -229,8 +156,7 @@ script.
       new google.maps.LatLng(40.9470950033508, -73.9987308620128),
       new google.maps.LatLng(48.1221341816001, -59.6983306401886));
       
-      var srcImage = todayPath;
-      document.getElementById("date").innerHTML = today;
+      var srcImage = '';
       overlay = new forcastOverlay(srcImage,bounds);
       
       //load JSON object 
@@ -244,6 +170,9 @@ script.
            }
        });
       
+       for (var i = 0; i < dogTicks.length; i++) {
+         dogTicks[i].setMap(map);
+       }
     }
     
     /** @constructor */
@@ -329,47 +258,6 @@ script.
 
   
 
-
-  $('#slider').mousemove(function() {
-    var theValue = $('#slider').val();
-
-    if (theValue == 0){
-  
-      overlay.changeImage(todayPath);
-      document.getElementById("date").innerHTML = today;
-  
-    } else if (theValue ==1){
-  
-     overlay.changeImage(tomorrowPath); 
-     document.getElementById("date").innerHTML = tomorrow;
-      
-  
-    } else if(theValue == 2){
-  
-       overlay.changeImage(twodaysfromnowPath);
-       document.getElementById("date").innerHTML = twodaysfromnow;       
-    } else if (theValue == 3){
-  
-       overlay.changeImage(threedaysfromnowPath);
-       document.getElementById("date").innerHTML = threedaysfromnow;      
-    }
-
-  }); 
-  
-  
-  function toggleForcast(cb) {
-    if (cb.checked){
-      overlay.toggle();
-      $('.icon-bar').show();
-            
-    }
-    else{
-      overlay.toggle();
-      $('.icon-bar').hide();
-    }
-    formatControlPanel();
-  }
-
   function createNewIcon(color){
     var icon = new google.maps.MarkerImage(
               "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + color,
@@ -420,46 +308,7 @@ script.
          
       }       
   }
-  
-  function setMapOnAll() {
-    for (var i = 0; i < dogTicks.length; i++) {
-      dogTicks[i].setMap(map);
-    }
-    
-    for (var i = 0; i < deerTicks.length; i++) {
-      deerTicks[i].setMap(map);
-    }
-    
-  }
-  
-  function hideAllMarkers() {
-   
-    
-    for (var i = 0; i < deerTicks.length; i++) {
-      deerTicks[i].setMap(null);
-    }
-    for (var i = 0; i < dogTicks.length; i++) {
-      dogTicks[i].setMap(null);
-    }
-    
-  }
-  
-  function showDeerTicks(cb) {
-    if(cb.checked){
-      for (var i = 0; i < deerTicks.length; i++) {
-        deerTicks[i].setMap(map);
-      }
-    }
-    else {
-      for (var i = 0; i < deerTicks.length; i++) {
-        deerTicks[i].setMap(null);
-      }
-      
-    }
-    
-    formatControlPanel();
-    
-  }
+
   
   function showDogTicks(cb) {
     if (cb.checked){
@@ -477,16 +326,8 @@ script.
   
   function formatControlPanel(){
     
-    var castBox = document.getElementById('cast');
     var dogBox = document.getElementById('dog');
-    var deerBox = document.getElementById('deer');
-    
-    if(castBox.checked){
-      $('#forecast').show();
-      }
-    else{
-      $('#forecast').hide();
-      }
+
     if(dogBox.checked){
      $('#dogTick').show();
     }
@@ -494,107 +335,13 @@ script.
       $('#dogTick').hide();
     }
     
-    if(deerBox.checked){
-      $('#deerTick').show(); 
-    }
-    else {
-      $('#deerTick').hide();
-    }
-    
   }
   
   function manageLayerspanel(){
-    document.getElementById('cast').checked = true;
-    document.getElementById('dog').checked = false;
-    document.getElementById('deer').checked = false;
+    document.getElementById('dog').checked = true;
     
     
   }
-  
-  function changeGlobalPaths(extension){
-    todayPath = "https://static.bigelow.org/data/ecocast/tick/"+today+extension;
-    tomorrowPath = "https://static.bigelow.org/data/ecocast/tick/"+tomorrow+extension;
-    twodaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+twodaysfromnow+extension;
-    threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+extension;
-  }
-    
-  function changeColor(value){
-    console.log(value);
-    var date = document.getElementById('date').innerHTML;
-    
-    if(value==1){
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+"_4.png");
-      changeGlobalPaths("_4.png");
-      $("#colorstrip").attr('src','/images/colorbars/oranges.png');
-    }
-    else if(value==2){
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+"_2.png");
-      changeGlobalPaths("_2.png");
-      $("#colorstrip").attr('src','/images/colorbars/yellows.png'); 
-    }
-    else if(value==3){
-      changeGlobalPaths(".png");
-      overlay.changeImage("https://static.bigelow.org/data/ecocast/tick/"+date+".png");
-      $("#colorstrip").attr('src','/images/colorbars/rainbow.png'); 
-    }
-    
-  }
-  
-  
-  function cycleThrough(){
-    var slide = document.getElementById('slider');
-
-    slide.value = "0";
-    overlay.changeImage(todayPath);
-    document.getElementById("date").innerHTML = today;
-  
-   animate1 =setTimeout(function(){
-        slide.value = "1";
-        overlay.changeImage(tomorrowPath);
-        document.getElementById("date").innerHTML = tomorrow;
-    }, 1000);
-  
-  
-    animate2 = setTimeout(function(){
-        slide.value = "2";
-        overlay.changeImage(twodaysfromnowPath);
-        document.getElementById("date").innerHTML = twodaysfromnow;
-      }, 2000);
-    
-    
-   animate3 = setTimeout(function(){
-        slide.value = "3";
-        overlay.changeImage(threedaysfromnowPath);
-        document.getElementById("date").innerHTML = threedaysfromnow;  
-    }, 3000);
-  }
-    
-    
-  
-  $('#play').on('click', function (e) {
-    
-    $("#play").hide();
-    $("#stop").show();
-    cycleThrough();
-    animate4=setInterval(function(){ cycleThrough() }, 4000);
-    
-   
-
-    
-  })
-  
-  $('#stop').on('click', function (e) {
-    $("#play").show();
-    $("#stop").hide();
-    clearTimeout(animate1);
-    clearTimeout(animate2);
-    clearTimeout(animate3);
-    clearInterval(animate4);
- 
-    
-    
-  })
-  
   
   google.maps.event.addDomListener(window, 'load', initMap);
 
