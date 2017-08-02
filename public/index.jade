@@ -208,7 +208,7 @@ script.
   $('#dogTick').hide();
   $("#stop").hide();
 
-  
+  manageLayerspanel();
   
 
   // animate forcast
@@ -513,6 +513,13 @@ script.
     
   }
   
+  function manageLayerspanel(){
+    document.getElementById('cast').checked = true;
+    document.getElementById('dog').checked = false;
+    document.getElementById('deer').checked = false;
+    
+    
+  }
   
   function changeGlobalPaths(extension){
     todayPath = "https://static.bigelow.org/data/ecocast/tick/"+today+extension;
