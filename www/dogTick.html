@@ -132,9 +132,6 @@ function initMap() {
          }
      });
     
-     for (var i = 0; i < dogTicks.length; i++) {
-       dogTicks[i].setMap(map);
-     }
   }
   
   /** @constructor */
@@ -236,34 +233,17 @@ function createNewIcon(color){
 function loadData(data){
      var LatLng = {lat: data.Lat, lng: data.Lon};
     //determine marker color based on tick sex
-    if (data.Species === 1){
-     
-     var marker = new google.maps.Marker({
-                position: LatLng,
-                map: null,
-        icon: female_deer
-      });
-      
-      deerTicks.push(marker);
-    } else if (data.Species === 2){
+    if (data.Species === 4){
       var marker = new google.maps.Marker({
                 position: LatLng,
-                map: null,
-        icon: male_deer
-      });
-      deerTicks.push(marker);
-      
-    } else if (data.Species === 4){
-      var marker = new google.maps.Marker({
-                position: LatLng,
-                map: null,
+                map: map,
         icon: female_dog
        });
        dogTicks.push(marker);
     } else{
      var marker = new google.maps.Marker({
                 position: LatLng,
-                map: null,
+                map: map,
         icon: male_dog
        });
        dogTicks.push(marker)

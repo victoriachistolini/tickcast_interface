@@ -7,8 +7,7 @@
       input.messageCheckbox(type='checkbox', name='layers', value='2',onclick='showDeerTicks(this);')#deer
       label(for='love')  Deer Tick Observations 
       br
-      input.messageCheckbox(type='checkbox', name='layers', value='3', onclick='showDogTicks(this);')#dog
-      label(for='love')  Dog Tick Observations 
+     
          
     #map
     .icon-bar
@@ -26,7 +25,7 @@
         //.hidden-md
         //  br
           //br
-        .col-md-8.col-md-pull-2
+        .col-md-8.col-md-pull-2.hidden-xs
           input(type='range', name='points', min='0', max='3',value='0')#slider 
          
         
@@ -66,20 +65,7 @@
               div Male Deer Tick
               br
               div Female Deer Tick
-           #dogTick
-            br
-            p Dog Tick Key:
-            br
-            .row
-             .col-md-5
-              #blueIcon
-              br
-              #purpleIcon
-             .col-md-7
-              div Male Dog Tick
-              br
-              div Female Dog Tick
-           
+          
 
 style.
   
@@ -136,17 +122,6 @@ style.
   background-color:#9370DB; 
   }
     
-  // #floating-panel {
-  //   //position: absolute;
-  //   opacity:0.8;
-  //   background-color: #fff;
-  //   border: 1px solid #999;
-  //   text-align: left;
-  //   font-family: 'Roboto','sans-serif';
-  //   line-height: 30px;
-  //   padding-left: 70%;
-  //
-  // }
   
   #floating-panel {
     position: absolute;
@@ -195,7 +170,6 @@ script.
   var threedaysfromnowPath = "https://static.bigelow.org/data/ecocast/tick/"+threedaysfromnow+"_4.png";
   
   $('#deerTick').hide();
-  $('#dogTick').hide();
   $("#stop").hide();
 
   manageLayerspanel();
@@ -478,7 +452,6 @@ script.
   function formatControlPanel(){
     
     var castBox = document.getElementById('cast');
-    var dogBox = document.getElementById('dog');
     var deerBox = document.getElementById('deer');
     
     if(castBox.checked){
@@ -487,12 +460,6 @@ script.
     else{
       $('#forecast').hide();
       }
-    if(dogBox.checked){
-     $('#dogTick').show();
-    }
-    else{
-      $('#dogTick').hide();
-    }
     
     if(deerBox.checked){
       $('#deerTick').show(); 
@@ -505,7 +472,6 @@ script.
   
   function manageLayerspanel(){
     document.getElementById('cast').checked = true;
-    document.getElementById('dog').checked = false;
     document.getElementById('deer').checked = false;
     
     
